@@ -11,10 +11,12 @@ function App() {
 }
 
 const Button = ({color, children}) => {
+  const innerVariable = 'I am invisible for outside world'
   return(
     <>
         <button>This is a {color} Button</button>
         {children}
+        {innerVariable}
     </>
   );
 } 
