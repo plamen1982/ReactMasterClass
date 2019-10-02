@@ -4,8 +4,8 @@
 
 {::nomarkdown}
 <h5>Component</h5>
-<div>Main building blocks: - Reusability and Isolation</div>  
- <div>Component props: - External data coming from <b>parent to child</b>.          <b>Immutable</b> Accessed from <b>single object argume</b> for functional components
+<div>Main building blocks: - <b>Reusability</b> and <b>Isolation</b></div>  
+ <div><b>Component props:</b> - <b>External</b> data coming from <b>parent to child</b>.          <b>Immutable</b> Accessed from <b>single object argument</b> for functional components
  </div>
 <h5>JSX</h5>
 <div>Combines markup with logic<b>JavaScript Expressions -> {}</b></div>
