@@ -10,7 +10,7 @@ export const ListView = () => (
     <div>
         {
             starWarsCharacters.map(hero => (
-            <div key={hero.id}>{hero.id}: {hero.name}</div>
+            <div class="row" key={hero.id}>{hero.id}: {hero.name}</div>
         ))}
     </div>
 )

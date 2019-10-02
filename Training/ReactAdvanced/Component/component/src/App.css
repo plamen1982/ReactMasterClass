@@ -1,3 +1,7 @@
 .skyblue-box {
   background-color: skyblue;
 }
+
+.row:nth-child(odd) {
+  background-color: rgb(212, 228, 203);
+}
