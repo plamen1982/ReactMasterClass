@@ -2,6 +2,23 @@
   background-color: skyblue;
 }
 
+.row {
+  width: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .row:nth-child(odd) {
   background-color: rgb(212, 228, 203);
+}
+
+.row:last-child {
+  border-bottom: 2px solid rgb(212, 228, 203);
+}
+.container {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

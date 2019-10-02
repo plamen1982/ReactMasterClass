@@ -1,10 +1,10 @@
 import React from 'react';
 
 const ListView = ({ starWarsCharacters }) => (
-    <div>
+    <div className="container">
         {
             starWarsCharacters.map((hero, index) => (
-                <div class="row" key={hero.created}>{index + 1}: {hero.name}</div>
+                <div className="row" key={hero.created}>{index + 1}: {hero.name}</div>
             ))
         }
     </div>

@@ -7,14 +7,20 @@ import axios from 'axios';
 // import { Box, BoxWithContent, MultipleBoxes } from './components/Generic-Components';
 
 import DataLoader from './components/ContainerComponent';
+
 const starWarsCharactersUrl = 'https://swapi.co/api/people/';
 
+const getStarWarsHeroes = () => {
+  return axios.get(starWarsCharactersUrl)
+}
+
 function App() {
-  const getStarWarsHeroes = () => {
-    return axios.get(starWarsCharactersUrl)
-  }
+
   return (
-    <DataLoader component={ListView} fetchData={getStarWarsHeroes} />
+    <DataLoader 
+      component={ListView} 
+      fetchData={getStarWarsHeroes} 
+    />
   );
 }
 export default App;

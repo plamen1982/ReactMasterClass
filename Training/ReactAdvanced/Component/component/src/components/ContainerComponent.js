@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 const DataLoader = ({ component: Component, fetchData }) => {
-    const [node, setNode] = useState([]);
-    
+    const [nodes, setNodes] = useState([]);
+
     useEffect(() => {
         fetchData().then(response => {
-        setNode(response.data.results);
+        setNodes(response.data.results);
         })
-    }, [])
+    }, []);
+    
     return (
-        <Component starWarsCharacters={node} />
+        <Component starWarsCharacters={nodes} />
     );
 }
 
