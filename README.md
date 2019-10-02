@@ -49,3 +49,4 @@
     <li>Serves as <b>data</b> and <b>behavior</b>providers</li>
     <li>Usually stateful</li>
 </ul>
+<h6>Inversion of control, see ContainerComponent implementation</h6>
