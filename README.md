@@ -16,7 +16,7 @@
 <ul>
     <li>Combines markup with logic. <b>JavaScript Expressions -> {}</b></li>
     <li>produce React elements</li>
-    <li><b>React Elements<b></li>
+    <li>React Elements</li>
 </ul>
 <ul>
     <li>smallest building blocks</li>
