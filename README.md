@@ -49,6 +49,6 @@
     <li>Serves as <b>data</b> and <b>behavior</b>providers</li>
     <li>Usually stateful</li>
 </ul>
-<h6>Inversion of control, see ContainerComponent implementation</h6>
+<h6>Inversion of control, see ContainerComponent implementation in Training/ReactAdvanced/Component/component</h6>
 <a href="https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847">Inversion of controle article
 </a>
