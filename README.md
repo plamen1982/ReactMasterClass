@@ -4,9 +4,14 @@
 
 {::nomarkdown}
 <h5>Component</h5>
-<div>Main building blocks: - <b>Reusabidivty</b> and <b>Isolation</b></div>  
- <div><b>Component props:</b> - <b>External</b> data coming from <b>parent to child</b>.          <b>Immutable</b> Accessed from <b>single object argument</b> for functional components
- </div>
+<ul>
+<li>Main building blocks: - <b>Reusability</b> and <b>Isolation</b></li>  
+ <li><b>Component props:</b> - <b>External</b> data coming from <b>parent to child<b>
+ </li>       
+ <li><b>Immutable</b></li> 
+ <li>Accessed from <b>single object argument</b> for functional components</li>
+</ul>
+
 <h5>JSX (JavaScriptXML)</h5>
 <ul>
     <li>Combines markup with logic. <b>JavaScript Expressions -> {}</b></li>
