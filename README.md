@@ -1,4 +1,4 @@
 # ReactMasterClass
-## React Advanced - Video [a link](https://youtu.be/zlpYShDdY_c) 
-   
+## React Advanced - [Video](https://youtu.be/zlpYShDdY_c) 
+
     
