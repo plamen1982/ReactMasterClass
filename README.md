@@ -13,5 +13,6 @@
 <div><b>React Elements<b></div>
 <ul>
     <li>smallest building blocks</li>
-    <li>plain object made with, <b>const name="pax" React.createElemetn('div', {className: 'element'}, 'I am', name)</b></li>
+    <li>plain object made with logic,Ex: const name="pax" React.createElemetn('div', {className: 'element'}, 'I am', name)</li>
+    <li>produces React elements</li>
 </ul>
