@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BlackButton />
+      <BrownButton />
     </div>
   );
 }
@@ -21,7 +21,7 @@ const Button = ({color, children}) => {
   );
 } 
 
-const BlackButton = () => {
+const BrownButton = () => {
   const color = 'Brown'
   return (
     <Button color={color}>
