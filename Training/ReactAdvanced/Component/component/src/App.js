@@ -10,16 +10,21 @@ function App() {
   );
 }
 
-const Button = ({color}) => {
+const Button = ({color, children}) => {
   return(
-    <button>This is a {color} Button</button>
+    <>
+        <button>This is a {color} Button</button>
+        {children}
+    </>
   );
 } 
 
 const BlackButton = () => {
   const color = 'Brown'
   return (
-    <Button color={color}/>
+    <Button color={color}>
+      <div>Some children content</div>
+    </Button>
   );
 
 }
