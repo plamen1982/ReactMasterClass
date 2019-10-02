@@ -1,13 +1,17 @@
 import React from 'react';
 
-const style = { border: '1px solid red', width: '100px', height: '100px', display: 'inline-block' }
-export const Box = (props, { children, left, right }) => (
-    <div style={style}       >
+export const Box = (props, children) => {
+    let style = { border: '1px solid red', width: '200px', height: '100px' }
+    style = {...style, ...props.width}
+    return (
+        <div style={style}>
+            {props.children}
+            {props.left}
+            {props.right}
+        </div>
 
-        {right}
-    </div>
-); 
-
+    );
+}
 
 export const BoxWithContent = () => {
     return (
@@ -16,10 +20,11 @@ export const BoxWithContent = () => {
 }
 
 export const MultipleBoxes = () => {
+    const style = {display: 'flex'}
     return (
-        <>
-            <Box left={<div>Left Box Props</div>}>Left Box Children</Box>
+        <div style={style}>
+            <Box width={{width: '70px', backgroundColor: 'skyblue'}} left={<div>Left Box Props</div>}>Left Box Children</Box>
             <Box right={<div>Right Box Props</div>}>Right Box Children</Box>
-        </>
+        </div>
     );
 }
