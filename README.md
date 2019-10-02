@@ -50,4 +50,5 @@
     <li>Usually stateful</li>
 </ul>
 <h6>Inversion of control, see ContainerComponent implementation</h6>
-[artile-inversion-of-control](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847)
+<a href="https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847">Inversion of controle article
+</a>
