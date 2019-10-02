@@ -6,13 +6,14 @@ function App() {
     <div className="App">
       <BrownButton />
       {customElement}
+      {customElemtnWithinJSXSyntax}
     </div>
   );
 }
 const name = 'pax';
 
 const customElement = React.createElement('div', { className: 'custom-input'}, 'Some content ', name)
-
+const customElemtnWithinJSXSyntax = <div className="element">Some content {name}</div>
 const Button = ({color, children}) => {
   const innerVariable = 'I am invisible for outside world'
   return(
