@@ -46,6 +46,6 @@
     <li>How things <b>Work</b></li>
     <li>Usually no <b>host(html elements in web, native elements in React Native(View, Text)</b>components</li>
     <li>Linked to external providers(redux-connect, appolo-qraphql, etc.)</li>
-    <li>Serves as<b>data</b> and <b>behavior</b>providers</li>
+    <li>Serves as <b>data</b> and <b>behavior</b>providers</li>
     <li>Usually stateful</li>
 </ul>

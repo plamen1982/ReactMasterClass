@@ -1,18 +1,15 @@
-import React, {useState, useEffect } from 'react';
-import axios from 'axios';
-import ListView from './PresentationalComponent';
+import React, { useEffect, useState } from 'react';
 
-const DataLoader = () => {
-    const starWarsCharactersUrl = 'https://swapi.co/api/people/';
-    const [starWarsCharacters, setStarWarsCharacters] = useState([]);
+const DataLoader = ({ component: Component, fetchData }) => {
+    const [node, setNode] = useState([]);
+    
     useEffect(() => {
-        axios.get(starWarsCharactersUrl)
-        .then(response => {
-            setStarWarsCharacters(response.data.results);
+        fetchData().then(response => {
+        setNode(response.data.results);
         })
     }, [])
     return (
-        <ListView starWarsCharacters={starWarsCharacters} />
+        <Component starWarsCharacters={node} />
     );
 }
 
