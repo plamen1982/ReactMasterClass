@@ -5,9 +5,13 @@ function App() {
   return (
     <div className="App">
       <BrownButton />
+      {customElement}
     </div>
   );
 }
+const name = 'pax';
+
+const customElement = React.createElement('div', { className: 'custom-input'}, 'Some content ', name)
 
 const Button = ({color, children}) => {
   const innerVariable = 'I am invisible for outside world'
