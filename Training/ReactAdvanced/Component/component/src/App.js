@@ -1,37 +1,10 @@
 import React from 'react';
-import './App.css';
+// import BrownButton from './components/JSXSyntaxAndButtonComposition';
+import { Box, BoxWithContent, MultipleBoxes } from './components/Generic-Components';
 
 function App() {
   return (
-    <div className="App">
-      <BrownButton />
-      {customElement}
-      {customElemtnWithinJSXSyntax}
-    </div>
+    <MultipleBoxes />
   );
-}
-const name = 'pax';
-
-const customElement = React.createElement('div', { className: 'custom-input'}, 'Some content ', name)
-const customElemtnWithinJSXSyntax = <div className="element">Some content {name}</div>
-const Button = ({color, children}) => {
-  const innerVariable = 'I am invisible for outside world'
-  return(
-    <>
-        <button>This is a {color} Button</button>
-        {children}
-        {innerVariable}
-    </>
-  );
-} 
-
-const BrownButton = () => {
-  const color = 'Brown'
-  return (
-    <Button color={color}>
-      <div>Some children content</div>
-    </Button>
-  );
-
 }
 export default App;
