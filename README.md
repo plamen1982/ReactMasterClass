@@ -12,10 +12,12 @@
 <div>produce React elements</div>
 <div><b>React Elements<b></div>
 <div>
-    <div>smallest building blocks</div>
-    <div>plain object made with logic,Ex: const name="pax" React.createElemetn('div', {className: 'element'}, 'I am', name) </div>
-    <div>in the Virtual DOM this React element is only a plain object => { type: 'div', props: { className: 'element', children: 'Some content pax' } }</div>
-    <div>produces React elements</div>
+<ul>
+    <li>smallest building blocks</li>
+    <li>plain object made with logic,Ex: const name="pax" React.createElemetn('div', {className: 'element'}, 'I am', name) </li>
+    <li>in the Virtual DOM this React element is only a plain object => { type: 'div', props: { className: 'element', children: 'Some content pax' } }</li>
+    <li>produces React elements</li>
+</ul>
 </div>
 <h5>Component Re-render Causes</h5>
 <div>Props Change</div>
