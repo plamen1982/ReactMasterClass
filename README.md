@@ -35,9 +35,17 @@
 <h6>Presentational Components(Dumb, Skinny):</h6>
 <ul>
     <li>How things <b>Look</b></li>
-    <li>Usually renders <b>host(html elements)</b>components</li>
+    <li>Usually renders <b>host(html elements in web, native elements in React Native(View, Text)</b>components</li>
     <li>No external dependencies</li>
     <li>Lack of knowledge about <b>data mutations</b> and <b>loading</b></li>
     <li>They are Pure functions(when using functional components)</li>
     <li>No state</li>
+</ul>
+<h6>Container Components(Smart, Fat):</h6>
+<ul>
+    <li>How things <b>Work</b></li>
+    <li>Usually no <b>host(html elements in web, native elements in React Native(View, Text)</b>components</li>
+    <li>Linked to external providers(redux-connect, appolo-qraphql, etc.)</li>
+    <li>Serves as<b>data</b> and <b>behavior</b>providers</li>
+    <li>Usually stateful</li>
 </ul>
