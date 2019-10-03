@@ -5,10 +5,10 @@
 {::nomarkdown}
 <h4>Component</h4>
 <ul>
-<li>Main building blocks: - <b>Reusability</b> and <b>Isolation</b></li>  
+<li>Main building blocks: - <b>Reusability</b> and <b>Isolation</b></li>
  <li><b>Component props:</b> - <b>External</b> data coming from <b>parent to child<b>
- </li>       
- <li><b>Immutable</b></li> 
+ </li>
+ <li><b>Immutable</b></li>
  <li>Accessed from <b>single object argument</b> for functional components</li>
 </ul>
 
@@ -48,7 +48,38 @@
     <li>Linked to external providers(redux-connect, appolo-qraphql, etc.)</li>
     <li>Serves as <b>data</b> and <b>behavior</b>providers</li>
     <li>Usually stateful</li>
+    <li>Complex logic is here</li>
 </ul>
 <h5>Inversion of control, see ContainerComponent implementation in Training/ReactAdvanced/Component/component</h5>
 <a href="https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847">Inversion of controle article
 </a>
+<h4>But Why? Presentation and Container Components</h4>
+<ul>
+    <li>Separation of concerns</li>
+    <li>Better reusability</li>
+    <li>Enforces Good Practices</li>
+    <li>Makes Styling Easier</li>
+    <li>The outcome will be: Small components, Easy to tests, Easy to reuse</li>
+</ul>
+<h4>What are refs?</h4>
+<ul>
+    <li>Imperatively control child's behavior</li>
+    <li>Child can be either DOM element or React Component</li>
+    <li>Used for accessing child component instance throughout the component lifecycle</li>
+    <li>Component should be mounted, to ref(instance of the element)</li>
+</ul>
+<h4>How to use refs?</h4>
+<ul>
+    <li>With functional components useRef()</li>
+    <li>Pass the ref instance to an element ref attribute in render</li>
+    <li>Control the rendered element via the ref instance reference</li>
+    <li>Depending on the child type ref instance receives different object as current property</li>
+        <ul>
+            <li>HTML element - the instance of the underlying DOM element</li>
+            <li>React Component - the instance of the mounted component</li>
+        </ul>
+</ul>
+<h4>Controlled vs Uncontrolled Form Components</h4>
+<ul>
+    <li></li>
+</ul>
