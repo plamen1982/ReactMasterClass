@@ -1,8 +1,10 @@
 # ReactMasterClass
 
-## [React Advanced](##react-advanced)
+## Content
 
-## [Creating React Applications](##creating-a-react-application)
+### [React Advanced](##react-advanced)
+
+### [Creating React Applications](##creating-a-react-application)
 
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
