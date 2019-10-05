@@ -96,6 +96,7 @@
 * Input components whose value is controlled by React are called controlled components
 
 ####Conclusions
+
 | feature                                   | uncontrolled | controlled  |  
 |-------------------------------------------|--------------|-------------|
 | one-time value retrieval (e.g. on submit) | Yes          | No          |
