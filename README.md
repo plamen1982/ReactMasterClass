@@ -20,6 +20,7 @@
 *   plain object made with logic,Ex: const name="pax" React.createElemetn('div', {className: 'element'}, 'I am', name)
 *   in the Virtual DOM this React element is only a plain object => { type: 'div', props: { className: 'element', children: 'Some content pax' } }
 *   produces React elements
+[JSX in depth official documentation](https://reactjs.org/docs/jsx-in-depth.html)
 
 #### Component Re-render Causes
 
@@ -46,10 +47,6 @@
 *   Serves as **data** and **behavior**providers
 *   Usually stateful
 *   Complex logic is here
-
-##### Inversion of control, see ContainerComponent implementation in Training/ReactAdvanced/Component/component
-
-[Inversion of controle article](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847)
 
 #### But Why? Presentation and Container Components
 
@@ -117,5 +114,62 @@
 * Lift the state up to the closest common ancestor for components requiring the same data
 * Anything derivable/reducible from props or state, shouldn’t be stored in the state.
 #### High order components
+
+
+###### The Problems - Solved with HOCs, Render Props and Custom hooks 
+
+* Abstract Same Pattern Logics to be reused by Components
+* Encapsulate Behaviors
+
+#### High-Order Components(HOCs)
 [Introduction to higher order components (HOC) in React](https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa)
 [Official Documentation: higher order components](https://reactjs.org/docs/higher-order-components.html)
+
+* Inspired by higher-order functions
+* Takes component as an argument and returns new component
+* Composes the input component by wrapping it in a container component
+* Doesn’t modify the input component
+
+#### Caveats
+
+* Don’t compose within the render method
+* Static members should be hoisted
+* Refs aren’t passed through
+* Name collisions
+* Indirections
+
+#### Render Props
+
+* Render Prop refers to a technique for sharing code between React components using a prop whose value is a function1
+* Encapsulates Behavior
+* Better Reusability
+* Mind when using with PureComponent
+[Render Props official documentation](https://reactjs.org/docs/render-props.html)
+
+##### Inversion of control, see ContainerComponent implementation in Training/ReactAdvanced/Component/component
+
+[Inversion of controle article](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847)
+
+##### Inversion of Control Caveats
+
+* Higher-level components become more complicated
+* Might cause lower-level component to be more flexible than wanted
+* Having multiple children needing same props
+
+##### The Problem - Solved with React Context and Redux
+
+* Same data necessary to different components at different nesting levels of the tree 
+* Passing data all the way from top to bottom
+* Some intermediate components don’t care about the data
+* Redundancy
+
+#### React Context
+
+* Context provides a way to pass data through the component tree without having to pass props down manually at every level
+Broadcast data and changes to all interested components down the tree.
+##### **Common examples:**
+* Accessing current locale
+* Getting a theme styles
+* Caching data
+[Context API official documentation](https://reactjs.org/docs/context.html)
+[When context replace redux](https://frontarm.com/james-k-nelson/when-context-replaces-redux/)
