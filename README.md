@@ -89,7 +89,7 @@
 * React doesn't recommend this pattern but it's useful when developers only care about the **final state** rather than the **intermediate state** of the component
 
 ##### Controlled Form Components
-* Definition - In HTML, form elements such as <input> , <textarea> , and <select> typically **maintain** their **own state** and **update** it based on **user input**. ... An input form element whose value is controlled by React in this way is called a **“controlled component”.**
+* Definition - In HTML, form elements such as input , textarea , and <select> typically **maintain** their **own state** and **update** it based on **user input**. ... An input form element whose value is controlled by React in this way is called a **“controlled component”.**
 * React state (redux) becomes single source of truth
 * Data is pushed to components using a prop (value/checked)
 * React component controls the behavior of the rendered form onUserInput**
