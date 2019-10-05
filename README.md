@@ -106,9 +106,3 @@
 | enforcing input format                    | No           | No          |
 | several inputs for one piece of data      | No           | No          |
 | dynamic inputs                            | No           | No          |
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
