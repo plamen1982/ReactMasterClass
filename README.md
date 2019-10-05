@@ -449,8 +449,10 @@ Broadcast data and changes to all interested components down the tree.
 * Use helper functions
 * Place tests as close as possible to the implementation
 * Changing implementation details (refactoring) should rarely cause a test to fail.
+## [Content](#content)
 
 #### List of VS code extensions
+
 * code --install-extension andys8.jest-snippets
 * code --install-extension antmdvs.vscode-react-hooks-snippets
 * code --install-extension azemoh.one-monokai
