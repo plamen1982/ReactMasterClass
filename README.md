@@ -1,6 +1,11 @@
 # ReactMasterClass
 
-## React Advanced - [Video](https://youtu.be/zlpYShDdY_c)
+## [React Advanced](##react-advanced)
+
+## [Creating React Applications](##creating-a-react-application)
+
+## React Advanced
+[Video](https://youtu.be/zlpYShDdY_c)
 
 #### Component
 *   Main building blocks: - **Reusability** and **Isolation**
@@ -253,7 +258,7 @@ Broadcast data and changes to all interested components down the tree.
 * Ensures Node.js version consistency
 * nvm, nvm-windows, nodist
 
-#### Node Version Manager (nvm)
+#### Node Version Manager (nvm) [nvm git repo](https://github.com/nvm-sh/nvm)
 * Install nvm
 * echo [desired version] >> .nvmrc 
 * nvm use 
@@ -266,7 +271,7 @@ Broadcast data and changes to all interested components down the tree.
 * in package.json
 "husky" : {
     "hooks": {
-        "pre-commit": "cross-env CI=true lint-staged"
+        "pre-commit": "cross-env CI=true lint-staged",
         "pre-push": "npm test"
     }
 }
