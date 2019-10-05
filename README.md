@@ -186,6 +186,7 @@ Broadcast data and changes to all interested components down the tree.
 #### Build the app for production
 * yarn build
 #### Ejecting your app
+* yarn eject or npm eject
 * Irreversible
 * Reasons:
     * Manage the Build
