@@ -94,3 +94,14 @@
 * Data is pushed to components using a prop (value/checked)
 * React component controls the behavior of the rendered form onUserInput**
 * Input components whose value is controlled by React are called controlled components
+
+####Conclusions
+| feature                                   | uncontrolled | controlled |   |   |
+|-------------------------------------------|--------------|------------|---|---|
+| one-time value retrieval (e.g. on submit) | ✅            | ✅          |   |   |
+| validating on submit                      | ✅            | ✅          |   |   |
+| instant field validation                  | ❌            | ✅          |   |   |
+| conditionally disabling submit button     | ❌            | ✅          |   |   |
+| enforcing input format                    | ❌            | ✅          |   |   |
+| several inputs for one piece of data      | ❌            | ✅          |   |   |
+| dynamic inputs                            | ❌            | ✅          |   |   |
