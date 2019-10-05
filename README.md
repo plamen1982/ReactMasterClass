@@ -95,9 +95,9 @@
 * React component controls the behavior of the rendered form onUserInput**
 * Input components whose value is controlled by React are called controlled components
 
-####Conclusions
+#### Conclusions
 
-#####uncontrolled/controlled
+##### uncontrolled/controlled
 
 * one-time value retrieval (e.g. on submit) YES/YES
 * validating on submit YES/YES
@@ -106,3 +106,13 @@
 * enforcing input format NO/YES
 * several inputs for one piece of data NO/YES
 * dynamic inputs NO/YES
+* use uncontrolled componentns when there is no other way(ex: call native DOM function like focus() on input element)
+
+#### Lifting the state
+[Article: Lifting the state](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+[Official Documentation](https://reactjs.org/docs/lifting-state-up.html)
+* Each changeable data should have single source of truth
+* Prefer top-down data flow instead of syncing state between interdependent components
+* Initially, place the state as close as possible to the component in interest
+* Lift the state up to the closest common ancestor for components requiring the same data
+* Anything derivable/reducible from props or state, shouldn’t be stored in the state.
