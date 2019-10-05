@@ -5,10 +5,11 @@
 ### [React Advanced](#react-advanced)
 
 ### [Creating React Applications](#creating-a-react-application)
+[create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
   * [List of VS code extensions](#list-of-vs-code-extensions)
-
+  * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
 
@@ -179,6 +180,7 @@ Broadcast data and changes to all interested components down the tree.
 [Creating a react application video](https://youtu.be/FNM-Dfdzlyw) 
 ## [Content](#content)
 #### CRA(create-react-app)
+[Link to react-scripts with all commands: start, build, eject..](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts/scripts)
 * yarn - creating the app with yarn
 * yarn global add create-react-app
 * yarn create react-app swapp
@@ -204,6 +206,9 @@ Broadcast data and changes to all interested components down the tree.
     * Curiosity 
 #### Update react-script
 * yarn upgrade react-script --latest
+#### Presets 
+[babel-preset-react](https://babeljs.io/docs/en/babel-preset-react)
+* Via .babelrc { "presets": ["@babel/preset-react"]  }
 #### Keynotes
 * Webpack
 * Eslint
