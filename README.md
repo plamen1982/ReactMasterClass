@@ -5,6 +5,7 @@
 ### [React Advanced](#react-advanced)
 
 ### [Creating React Applications](#creating-a-react-application)
+  * [Testing React Components](#testing-react-components)
 
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
