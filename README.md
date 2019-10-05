@@ -96,7 +96,9 @@
 * Input components whose value is controlled by React are called controlled components
 
 ####Conclusions
+
 #####uncontrolled/controlled
+
 * one-time value retrieval (e.g. on submit) YES/YES
 * validating on submit YES/YES
 * instant field validation NO/YES
