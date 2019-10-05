@@ -5,7 +5,9 @@
 ### [React Advanced](#react-advanced)
 
 ### [Creating React Applications](#creating-a-react-application)
+  * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
+  * [List of VS code extensions](#list-of-vs-code-extensions)
 
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
@@ -293,7 +295,8 @@ Broadcast data and changes to all interested components down the tree.
 * Run CI Build on each PR
 * Deploy Automatically the master branch
 
-#### Storybook [storybook git repo](https://github.com/storybookjs/storybook)
+#### Storybook 
+[storybook git repo](https://github.com/storybookjs/storybook)
 
 **Storybook is an open source tool for developing UI components in isolation**
 * Build Components in Isolation
@@ -315,7 +318,7 @@ Broadcast data and changes to all interested components down the tree.
     "build-storybook": "build-storybook -s public
 }
 
-#### Storybook
+#### Storybook1
 * Loading Stories - .storybook/config.js
 * Adding Decorators 
 * Addons
