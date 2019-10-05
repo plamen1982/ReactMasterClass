@@ -96,12 +96,18 @@
 * Input components whose value is controlled by React are called controlled components
 
 ####Conclusions
-| feature                                   | uncontrolled | controlled |   |   |
-|-------------------------------------------|--------------|------------|---|---|
-| one-time value retrieval (e.g. on submit) | ✅            | ✅          |   |   |
-| validating on submit                      | ✅            | ✅          |   |   |
-| instant field validation                  | ❌            | ✅          |   |   |
-| conditionally disabling submit button     | ❌            | ✅          |   |   |
-| enforcing input format                    | ❌            | ✅          |   |   |
-| several inputs for one piece of data      | ❌            | ✅          |   |   |
-| dynamic inputs                            | ❌            | ✅          |   |   |
+| feature                                   | uncontrolled | controlled  |  
+|-------------------------------------------|--------------|-------------|
+| one-time value retrieval (e.g. on submit) | Yes          | No          |
+| validating on submit                      | Yes          | No          |
+| instant field validation                  | No           | No          |
+| conditionally disabling submit button     | No           | No          |
+| enforcing input format                    | No           | No          |
+| several inputs for one piece of data      | No           | No          |
+| dynamic inputs                            | No           | No          |
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
