@@ -116,3 +116,6 @@
 * Initially, place the state as close as possible to the component in interest
 * Lift the state up to the closest common ancestor for components requiring the same data
 * Anything derivable/reducible from props or state, shouldn’t be stored in the state.
+#### High order components
+[Introduction to higher order components (HOC) in React](https://medium.com/@soorajchandran/introduction-to-higher-order-components-hoc-in-react-383c9343a3aa)
+[Official Documentation: higher order components](https://reactjs.org/docs/higher-order-components.html)
