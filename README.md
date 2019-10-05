@@ -2,9 +2,9 @@
 
 ## Content
 
-### [React Advanced](##react-advanced)
+### [React Advanced](#react-advanced)
 
-### [Creating React Applications](##creating-a-react-application)
+### [Creating React Applications](#creating-a-react-application)
 
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
