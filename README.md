@@ -77,8 +77,10 @@
 *   React Component - the instance of the mounted component
 
 #### Controlled vs Uncontrolled Form Components
-[Article if not clear yet](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+[Article with examples: Controlled vs Uncontrolled](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
 ##### Uncontrolled Form Components
+* You don't have access to hooks beside componentDidMount()
+* You should taka care of the internal state, instead of allowing React to do this for you
 * Keep internal state
 * Uncontrolled
 * current value is **pulled** from the components using **ref**

@@ -9,10 +9,15 @@ class FocusExample extends React.Component {
   }
 
   componentWillUpdate() {
-    console.log(this.inputRef.current.value)
+    //is called only when setState is called 
+    console.log(`Sorry you do not have access to lyfecycle hooks you take care
+    'by your self now good luck, handleOnChange is your way now`)
+  }
+  handleOnChange = (e) => {
+    console.log(e.target.value)
   }
   render() {
-    return <input ref={this.inputRef} type="text" placeholder="Focus Here" />;
+    return <input onChange={this.handleOnChange} ref={this.inputRef} type="text" placeholder="Focus Here" />;
   }
 }
 
