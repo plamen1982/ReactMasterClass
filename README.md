@@ -174,7 +174,7 @@ Broadcast data and changes to all interested components down the tree.
 ### Content 
 #### CRA(create-react-app)
 #### Linting
-#### Storybook
+#### Storybook-content
 #### Unit Testing and Code Coverage
 [Creating a react application video](https://youtu.be/FNM-Dfdzlyw) 
 
