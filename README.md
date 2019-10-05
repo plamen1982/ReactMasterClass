@@ -96,13 +96,11 @@
 * Input components whose value is controlled by React are called controlled components
 
 ####Conclusions
-
-| feature                                   | uncontrolled | controlled  |  
-|-------------------------------------------|--------------|-------------|
-| one-time value retrieval (e.g. on submit) | Yes          | No          |
-| validating on submit                      | Yes          | No          |
-| instant field validation                  | No           | No          |
-| conditionally disabling submit button     | No           | No          |
-| enforcing input format                    | No           | No          |
-| several inputs for one piece of data      | No           | No          |
-| dynamic inputs                            | No           | No          |
+#####uncontrolled/controlled
+* one-time value retrieval (e.g. on submit) YES/YES
+* validating on submit YES/YES
+* instant field validation NO/YES
+* conditionally disabling submit button NO/YES
+* enforcing input format NO/YES
+* several inputs for one piece of data NO/YES
+* dynamic inputs NO/YES
