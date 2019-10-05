@@ -77,5 +77,18 @@
 *   React Component - the instance of the mounted component
 
 #### Controlled vs Uncontrolled Form Components
+[Article if not clear yet](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+##### Uncontrolled Form Components
+* Keep internal state
+* Uncontrolled
+* current value is **pulled** from the components using **ref**
+* Defaults to HTML Form elements behavior
+* **input**, **textarea**, **select**
+* React doesn't recommend this pattern but it's useful when developers only care about the **final state** rather than the **intermediate state** of the component
 
-****
+##### Controlled Form Components
+* Definition - In HTML, form elements such as <input> , <textarea> , and <select> typically **maintain** their **own state** and **update** it based on **user input**. ... An input form element whose value is controlled by React in this way is called a **“controlled component”.**
+* React state (redux) becomes single source of truth
+* Data is pushed to components using a prop (value/checked)
+* React component controls the behavior of the rendered form onUserInput**
+* Input components whose value is controlled by React are called controlled components
