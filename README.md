@@ -72,9 +72,10 @@
 
 *   HTML element - the instance of the underlying DOM element
 *   React Component - the instance of the mounted component
-
+[Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
 #### Controlled vs Uncontrolled Form Components
 [Article with examples: Controlled vs Uncontrolled](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+
 ##### Uncontrolled Form Components
 * You don't have access to hooks beside componentDidMount()
 * You should taka care of the internal state, instead of allowing React to do this for you
@@ -173,3 +174,46 @@ Broadcast data and changes to all interested components down the tree.
 * Caching data
 [Context API official documentation](https://reactjs.org/docs/context.html)
 [When context replace redux](https://frontarm.com/james-k-nelson/when-context-replaces-redux/)
+
+## Creating a react application
+### Content 
+#### CRA(create-react-app)
+#### Linting
+#### Storybook
+#### Unit Testing and Code Coverage
+[Creating a react application video](https://youtu.be/FNM-Dfdzlyw) 
+
+#### CRA(create-react-app)
+* yarn - creating the app with yarn
+* yarn global add create-react-app
+* yarn create react-app swapp
+* npm - creating the app with npm
+* npm init react-app swapp
+* npx - creating the app with npx
+* npx create-react-app swapp
+##### Starting the app
+* yarn start
+* npm start
+
+##### Starting the tests
+* yarn test
+* npm test
+#### Build the app for production
+* yarn build
+#### Ejecting your app
+* Irreversible
+* Reasons:
+    * Manage the Build
+    * Missing Features
+    * Curiosity 
+#### Update react-script
+* yarn upgrade react-script --latest
+#### Keynotes
+* Webpack
+* Eslint
+* Styles and Assets
+* Environment Variables
+* Progressive Web Apps
+* Jest
+#### Webpack [official sait for webpack](https://webpack.js.org/)
+*
