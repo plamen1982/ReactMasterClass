@@ -186,11 +186,6 @@ Broadcast data and changes to all interested components down the tree.
 [When context replace redux](https://frontarm.com/james-k-nelson/when-context-replaces-redux/)
 
 ## Creating a react application
-### Content 
-#### CRA(create-react-app)
-#### Linting
-#### Storybook-content
-#### Unit Testing and Code Coverage
 [Video](https://youtu.be/FNM-Dfdzlyw)
 ## [Content](#content)
 #### CRA(create-react-app)
