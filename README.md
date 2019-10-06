@@ -8,8 +8,8 @@
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
-  * [List of VS code extensions](#list-of-vs-code-extensions)
   * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env) - Deploying with CI 55min in Creating React Applications video
+  * [List of VS code extensions](#list-of-vs-code-extensions)
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
@@ -355,12 +355,33 @@ Broadcast data and changes to all interested components down the tree.
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public
 }
-
-#### Storybook1
-* Loading Stories - .storybook/config.js
+**netlify.toml - settings** -add the file with content for deploying
+[build]
+base = "/"
+publish = "/storybook-static/"
+command = "yarn ci && yarn build-storybook"
+#### Storybook-Loading and extensions
+* Loading Stories see the settings in -> .storybook/config.js
+* must have extensions -> stories.js
 * Adding Decorators 
 * Addons
 
+#### Storybook syntax
+##### Sending actions
+* **sending action** in the storybook console in this case the name of the event is clicked(the event that was handled by action)
+* import { action } from '@storybook/addon-actions';
+* <Button onClick={action('clicked')}>
+###### Adding decorators - 1h:12min
+* in **.storybook/config.js** 
+* adding global decorator
+* example: **addDecorator(story => <div style={{ textAlign: "center"}}>{story()}</div>)**
+* in the example above the decorator will wrap the story in the div with these styles
+##### Adding addon knobs - Storybook Addon Knobs allow you to edit props dynamically using the Storybook UI. You can also use Knobs as a dynamic variable inside stories in Storybook. 
+[addon-knobs link](https://www.npmjs.com/package/@storybook/addon-knobs)
+* npm i @storybook/addon-knobs or yarn add @storybook/addon-knobs --dev
+* addon should be added in .storybook/addons.js like this: **import '@storybook/addon-knobs/register';**
+* then import in .storybook/config.js : **import { withKnobs } from '@storybook/addon-knobs'** and then wrrapped it in decorator: addDecorator(withKnobs);
+* check more complex example with meme-generator: **1h:18min**
 #### Testing React Components
 * Capture Regressions
 * Ensure Proper Visual Content
