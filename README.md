@@ -2,7 +2,7 @@
 
 ## Content
 
-### [React Advanced](#react-advanced)
+### [React Advanced](#react-advanced) [Video](https://youtu.be/zlpYShDdY_c)
   * [Component](#component)
   * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
   * [Component Re-render Causes](#component-re-render-causes)
@@ -15,7 +15,7 @@
   * [Render Props](#render-props)
   * [Inversion of control](#inversion-of-control)
   * [React Context](#react-context)
-### [Creating React Applications](#creating-a-react-application)
+### [Creating React Applications](#creating-a-react-application) [Video](https://youtu.be/FNM-Dfdzlyw)
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
@@ -191,7 +191,7 @@ Broadcast data and changes to all interested components down the tree.
 #### Linting
 #### Storybook-content
 #### Unit Testing and Code Coverage
-[Creating a react application video](https://youtu.be/FNM-Dfdzlyw) 
+[Video](https://youtu.be/FNM-Dfdzlyw)
 ## [Content](#content)
 #### CRA(create-react-app)
 [Link to react-scripts with all commands: start, build, eject..](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts/scripts)
