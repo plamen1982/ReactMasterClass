@@ -3,7 +3,18 @@
 ## Content
 
 ### [React Advanced](#react-advanced)
-
+  * [Component](#component)
+  * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
+  * [Component Re-render Causes](#component-re-render-causes)
+  * [Presentational Components(Dumb, Skinny)](#presentational-components(dumb,-skinny))
+  * [Container Components(Smart, Fat)](#container-components(smart,-fat))
+  * [What are refs?](#what-are-refs?)
+  * [Controlled vs Uncontrolled Form Components](#controlled-vs-uncontrolled-form-components)
+  * [Lifting the state](#lifting-the-state)
+  * [High order components](#high-order-components)
+  * [Render Props](#render-props)
+  * [Inversion of control](#inversion-of-control)
+  * [React Context](#react-context)
 ### [Creating React Applications](#creating-a-react-application)
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
@@ -41,7 +52,7 @@
 
 #### Presentational Components and Container Components
 
-##### Presentational Components(Dumb, Skinny):
+##### Presentational Components(Dumb, Skinny)
 *   How things **Look**
 *   Usually renders **host(html elements in web, native elements in React Native(View, Text)**components
 *   No external dependencies
@@ -49,7 +60,7 @@
 *   They are Pure functions(when using functional components)
 *   No state
 
-##### Container Components(Smart, Fat):
+##### Container Components(Smart, Fat)
 *   How things **Work**
 *   Usually no **host(html elements in web, native elements in React Native(View, Text)**components
 *   Linked to external providers(redux-connect, appolo-qraphql, etc.)
@@ -121,7 +132,6 @@
 * Anything derivable/reducible from props or state, shouldn’t be stored in the state.
 #### High order components
 
-
 ###### The Problems - Solved with HOCs, Render Props and Custom hooks 
 * Abstract Same Pattern Logics to be reused by Components
 * Encapsulate Behaviors
@@ -149,7 +159,8 @@
 * Mind when using with PureComponent
 [Render Props official documentation](https://reactjs.org/docs/render-props.html)
 
-##### Inversion of control, see ContainerComponent implementation in Training/ReactAdvanced/Component/component
+##### Inversion of control
+* see ContainerComponent implementation in Training/ReactAdvanced/Component/component
 
 [Inversion of controle article](https://medium.com/@magnusjt/inversion-of-control-and-di-in-reactjs-and-redux-35161fcef847)
 
@@ -299,7 +310,7 @@ Broadcast data and changes to all interested components down the tree.
 
 #### Git Hooks Husky Lint Stage and Cross Env
 [CI with lint staged and husky pre commit - article](https://codeburst.io/continuous-integration-lint-staged-husky-pre-commit-hook-test-setup-47f8172924fc)
-**npm install --save-dev husky lint-staged cross-env**
+* **npm install --save-dev husky lint-staged cross-env**
 * cross-env -[cross-env](https://www.npmjs.com/package/cross-env) - Run scripts that set and use environment variables across platforms
 * husky - Husky can prevent bad git commit, git push and more dog woof! [husky git](https://github.com/typicode/husky)
 
