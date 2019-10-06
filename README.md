@@ -10,6 +10,8 @@
   * [Testing React Components](#testing-react-components)
   * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env) - Deploying with CI 55min in Creating React Applications video
   * [List of VS code extensions](#list-of-vs-code-extensions)
+  * [Shallow Render](#shallow-render)
+  * [Jest Enzyme addon](#jest-enzyme)
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
@@ -382,7 +384,7 @@ command = "yarn ci && yarn build-storybook"
 * addon should be added in .storybook/addons.js like this: **import '@storybook/addon-knobs/register';**
 * then import in .storybook/config.js : **import { withKnobs } from '@storybook/addon-knobs'** and then wrrapped it in decorator: addDecorator(withKnobs);
 * check more complex example with meme-generator: **1h:18min**
-#### Testing React Components
+#### Testing React Components 
 * Capture Regressions
 * Ensure Proper Visual Content
 * Validate UX
@@ -390,7 +392,7 @@ command = "yarn ci && yarn build-storybook"
 * Encourages High Quality Code
 ## [Content](#content)
 
-#### Jest [Jest official site](https://jestjs.io/)
+#### Jest [Jest official site](https://jestjs.io/)- 1h:35min
 * **Jest is a delightful JavaScript Testing Framework with a focus on simplicity.**
 * Fast and Safe
 * Code Coverage
@@ -406,7 +408,7 @@ command = "yarn ci && yarn build-storybook"
 * .test.js files
 * .spec.js files
 * Global Setup File:
-* src/setupTests.js
+* src/setupTests.js - in this file we can mock external API globally for the whole project 
 **in package.json**
 "jest": {
   "snapshotSerializers": [
@@ -444,7 +446,8 @@ command = "yarn ci && yarn build-storybook"
 * Shallow Rendering - usualy for container components only to check if the compoenent is rendered
 * Mount (Full) Rendering - for Integration tests
 
-#### Shallow Render
+#### Shallow Render 
+* Start at 1h: 52min
 * **Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components**
 * Testing components in isolation
 * Container components
@@ -470,7 +473,10 @@ command = "yarn ci && yarn build-storybook"
 * Depending Components’ Names
 * Asserting Component State
 * Invoking Function Props
-
+##### jest-enzyme
+* [jest-enzyme official site](https://www.npmjs.com/package/jest-enzyme)
+* import 'jest-enzyme' in setupTests.js
+* receiving a lot of good methods like toExist(), toHaveProp(), toHaveClassName(), toHaveValue() .etc..
 #### React Testing Library
 * **We try to only expose methods and utilities that encourage you to write tests that closely resemble how your web pages are used**
 * Builds on top of DOM Testing Library1 
