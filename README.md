@@ -321,6 +321,12 @@ Broadcast data and changes to all interested components down the tree.
  ]
 }
 
+* **netlify.toml** and the file on project level
+* [build]
+* base = "/"
+* publish = "storybook-static/"
+* command = "yarn ci && yarn build-storybook"
+
 #### Continuos Integration/Deployment
 * Always use Pull/Merge Requests
 * Run CI Build on each PR
