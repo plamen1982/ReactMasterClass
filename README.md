@@ -9,6 +9,7 @@
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
   * [List of VS code extensions](#list-of-vs-code-extensions)
+  * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env)
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
@@ -294,8 +295,12 @@ Broadcast data and changes to all interested components down the tree.
     "format": "prettier --write \"src/**/*.{js,json, css, scss}\""
 }
 
-#### Git Hooks and Husky 
-[husky git repo](https://github.com/typicode/husky)
+#### Git Hooks Husky Lint Stage and Cross Env
+**npm install --save-dev husky lint-staged cross-env**
+* cross-env -[cross-env](https://www.npmjs.com/package/cross-env) - Run scripts that set and use environment variables across platforms
+* husky - Husky can prevent bad git commit, git push and more dog woof! [husky git](https://github.com/typicode/husky)
+
+* [lint-staged link](https://github.com/okonet/lint-staged) — Run linters on git staged files, Run linters against staged git files and don't let hankey slip into your code base!
 [prettier git repo](https://github.com/prettier/prettier)
 
 * in package.json
