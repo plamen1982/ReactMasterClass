@@ -281,12 +281,17 @@ Broadcast data and changes to all interested components down the tree.
 * Resolves visual esthetics arguments
 * Uses [cosmiconfig link](https://github.com/davidtheclark/cosmiconfig)
 * Create format script
-
+**In package.json**
 "prettier": {
   "trailingComma": "all",
   "tabWith": 2,
   "semi": true,
   "singleQuote": true
+}
+* Format with prettier all files that are listed, ex: {js,json, css, scss}
+"scripts": {
+    ...
+    "format": "prettier --write \"src/**/*.{js,json, css, scss}\""
 }
 
 #### Git Hooks and Husky 
