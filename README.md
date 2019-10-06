@@ -9,7 +9,7 @@
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
   * [List of VS code extensions](#list-of-vs-code-extensions)
-  * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env)
+  * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env) - Deploying with CI 55min in Creating React Applications video
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
@@ -321,11 +321,11 @@ Broadcast data and changes to all interested components down the tree.
  ]
 }
 
-* **netlify.toml** and the file on project level
+* **netlify.toml** and the file into the project level with content: 
 * [build]
 * base = "/"
-* publish = "storybook-static/"
-* command = "yarn ci && yarn build-storybook"
+* publish = "/build/"
+* command = "yarn ci && yarn build"
 
 #### Continuos Integration/Deployment
 * Always use Pull/Merge Requests
