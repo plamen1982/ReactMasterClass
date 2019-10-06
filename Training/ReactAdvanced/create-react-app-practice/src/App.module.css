@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.error {
+  background-color: red;
+}
 
 .App-logo {
   height: 40vmin;

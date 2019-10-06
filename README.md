@@ -237,7 +237,7 @@ Broadcast data and changes to all interested components down the tree.
 #### CSS/SASS Styling
 * Import CSS or SASS* files as dependency
 * Import CSS or SASS* modules
-* [name].module.{css,scss}
+* [name].module.{css,scss} - [Adding a CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
 * Style scoping via unique classnames
 
 #### Environmental Variables
