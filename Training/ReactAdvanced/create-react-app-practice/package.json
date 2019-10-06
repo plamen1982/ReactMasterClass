@@ -39,12 +39,12 @@
   },
   "lint-staged": {
     "src/**/*.js": [
-     "prettier --write",
-     "eslint --max-warnings=0",
-     "yarn test --bail --findRelatedTests",
-     "git add"
+      "prettier --write",
+      "eslint --max-warnings=0",
+      "yarn test --bail --findRelatedTests",
+      "git add"
     ]
-   },
+  },
   "browserslist": {
     "production": [
       ">0.2%",

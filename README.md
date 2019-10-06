@@ -296,6 +296,7 @@ Broadcast data and changes to all interested components down the tree.
 }
 
 #### Git Hooks Husky Lint Stage and Cross Env
+[CI with lint staged and husky pre commit - article](https://codeburst.io/continuous-integration-lint-staged-husky-pre-commit-hook-test-setup-47f8172924fc)
 **npm install --save-dev husky lint-staged cross-env**
 * cross-env -[cross-env](https://www.npmjs.com/package/cross-env) - Run scripts that set and use environment variables across platforms
 * husky - Husky can prevent bad git commit, git push and more dog woof! [husky git](https://github.com/typicode/husky)
