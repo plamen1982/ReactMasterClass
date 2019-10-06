@@ -19,7 +19,7 @@
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
-  * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env) - Deploying with CI 55min in Creating React Applications video
+  * [Git Hooks Husky Lint Stage and Cross Env](#git-hooks-husky-lint-stage-and-cross-env) - Deploying with CI 55min in Video
   * [List of VS code extensions](#list-of-vs-code-extensions)
   * [Shallow Render](#shallow-render)
   * [Jest Enzyme addon](#jest-enzyme)
@@ -507,12 +507,12 @@ command = "yarn ci && yarn build-storybook"
 * Behaviors/Objects that aren’t target of the current test
 * Timers
 
-#### Mocking API
+#### Mocking API - 2h:19min
 * jest.fn([implementation])1 - creates unused mocked function
 * jest.spyOn(object, methodName)2 - wraps object[methodName] in mock function and returns the later
 * mockFn.methods
 
-#### Mocking Timers
+#### Mocking Timers 
 * jest.useFakeTimers() - Instructs Jest to use fake versions of the standard timer functions
 * jest.runAllTimers() - Exhausts both the macro-task queue and the micro-task  queue
 * jest.advanceTimersByTime(ms) - Executes only  queued task in the macro task queue
