@@ -6,9 +6,9 @@
   * [Component](#component)
   * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
   * [Component Re-render Causes](#component-re-render-causes)
-  * [Presentational Components(Dumb, Skinny)](#presentational-components(dumb,-skinny))
-  * [Container Components(Smart, Fat)](#container-components(smart,-fat))
-  * [What are refs?](#what-are-refs?)
+  * [Presentational Components(Dumb, Skinny)](#presentational-components-or-dumb-or-skinny)
+  * [Container Components(Smart, Fat)](#container-components-or-smart-or-fat)
+  * [What are refs?](#what-are-refs)
   * [Controlled vs Uncontrolled Form Components](#controlled-vs-uncontrolled-form-components)
   * [Lifting the state](#lifting-the-state)
   * [High order components](#high-order-components)
@@ -52,7 +52,7 @@
 
 #### Presentational Components and Container Components
 
-##### Presentational Components(Dumb, Skinny)
+##### Presentational Components or Dumb or Skinny
 *   How things **Look**
 *   Usually renders **host(html elements in web, native elements in React Native(View, Text)**components
 *   No external dependencies
@@ -60,7 +60,7 @@
 *   They are Pure functions(when using functional components)
 *   No state
 
-##### Container Components(Smart, Fat)
+##### Container Components or Smart or Fat
 *   How things **Work**
 *   Usually no **host(html elements in web, native elements in React Native(View, Text)**components
 *   Linked to external providers(redux-connect, appolo-qraphql, etc.)
@@ -75,7 +75,7 @@
 *   Makes Styling Easier
 *   The outcome will be: Small components, Easy to tests, Easy to reuse
 
-#### What are refs?
+#### What are refs
 *   Imperatively control child's behavior
 *   Child can be either DOM element or React Component
 *   Used for accessing child component instance throughout the component lifecycle
