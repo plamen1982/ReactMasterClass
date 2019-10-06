@@ -275,6 +275,20 @@ Broadcast data and changes to all interested components down the tree.
 * call "nvm use" - where the file is located folder
 * [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 
+#### Opinionated Formatter 
+
+##### Prettier
+* Resolves visual esthetics arguments
+* Uses [cosmiconfig link](https://github.com/davidtheclark/cosmiconfig)
+* Create format script
+
+"prettier": {
+  "trailingComma": "all",
+  "tabWith": 2,
+  "semi": true,
+  "singleQuote": true
+}
+
 #### Git Hooks and Husky 
 [husky git repo](https://github.com/typicode/husky)
 [prettier git repo](https://github.com/prettier/prettier)
