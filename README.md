@@ -264,6 +264,7 @@ Broadcast data and changes to all interested components down the tree.
 * CI/CD
 
 #### Pin the Node.js version
+
 * Limits Hard to Reproduce Issues
 * Ensures Node.js version consistency
 * nvm, nvm-windows, nodist
@@ -271,8 +272,8 @@ Broadcast data and changes to all interested components down the tree.
 #### Node Version Manager (nvm) [nvm git repo](https://github.com/nvm-sh/nvm)
 * Install nvm
 * echo [desired version] >> .nvmrc 
-* nvm use 
-* or set up automatic nvm use call
+* call "nvm use" - where the file is located folder
+* [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 
 #### Git Hooks and Husky 
 [husky git repo](https://github.com/typicode/husky)
