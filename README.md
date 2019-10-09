@@ -132,7 +132,7 @@
 * Anything derivable/reducible from props or state, shouldn’t be stored in the state.
 #### High order components
 
-###### The Problems - Solved with HOCs, Render Props and Custom hooks 
+###### The Problems - Solved with HOCs, Render Props and Custom hooks
 * Abstract Same Pattern Logics to be reused by Components
 * Encapsulate Behaviors
 
@@ -170,7 +170,7 @@
 * Having multiple children needing same props
 
 ##### The Problem - Solved with React Context and Redux
-* Same data necessary to different components at different nesting levels of the tree 
+* Same data necessary to different components at different nesting levels of the tree
 * Passing data all the way from top to bottom
 * Some intermediate components don’t care about the data
 * Redundancy
@@ -212,10 +212,10 @@ Broadcast data and changes to all interested components down the tree.
 * Reasons:
     * Manage the Build
     * Missing Features
-    * Curiosity 
+    * Curiosity
 #### Update react-script
 * yarn upgrade react-script --latest
-#### Presets 
+#### Presets
 [babel-preset-react](https://babeljs.io/docs/en/babel-preset-react)
 * Via .babelrc { "presets": ["@babel/preset-react"]  }
 #### Keynotes
@@ -280,11 +280,11 @@ Broadcast data and changes to all interested components down the tree.
 
 #### Node Version Manager (nvm) [nvm git repo](https://github.com/nvm-sh/nvm)
 * Install nvm
-* echo [desired version] >> .nvmrc 
+* echo [desired version] >> .nvmrc
 * call "nvm use" - where the file is located folder
 * [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 
-#### Opinionated Formatter 
+#### Opinionated Formatter
 
 ##### Prettier
 * Resolves visual esthetics arguments
@@ -329,7 +329,7 @@ Broadcast data and changes to all interested components down the tree.
  ]
 }
 
-* **netlify.toml** and the file into the project level with content: 
+* **netlify.toml** and the file into the project level with content:
 * [build]
 * base = "/"
 * publish = "/build/"
@@ -340,7 +340,7 @@ Broadcast data and changes to all interested components down the tree.
 * Run CI Build on each PR
 * Deploy Automatically the master branch
 
-#### Storybook 
+#### Storybook
 [storybook git repo](https://github.com/storybookjs/storybook)
 ## [Content](#content)
 
@@ -371,7 +371,7 @@ command = "yarn ci && yarn build-storybook"
 #### Storybook-Loading and extensions
 * Loading Stories see the settings in -> .storybook/config.js
 * must have extensions -> stories.js
-* Adding Decorators 
+* Adding Decorators
 * Addons
 
 #### Storybook syntax
@@ -380,17 +380,17 @@ command = "yarn ci && yarn build-storybook"
 * import { action } from '@storybook/addon-actions';
 * <Button onClick={action('clicked')}>
 ###### Adding decorators - 1h:12min
-* in **.storybook/config.js** 
+* in **.storybook/config.js**
 * adding global decorator
 * example: **addDecorator(story => <div style={{ textAlign: "center"}}>{story()}</div>)**
 * in the example above the decorator will wrap the story in the div with these styles
-##### Adding addon knobs - Storybook Addon Knobs allow you to edit props dynamically using the Storybook UI. You can also use Knobs as a dynamic variable inside stories in Storybook. 
+##### Adding addon knobs - Storybook Addon Knobs allow you to edit props dynamically using the Storybook UI. You can also use Knobs as a dynamic variable inside stories in Storybook.
 [addon-knobs link](https://www.npmjs.com/package/@storybook/addon-knobs)
 * npm i @storybook/addon-knobs or yarn add @storybook/addon-knobs --dev
 * addon should be added in .storybook/addons.js like this: **import '@storybook/addon-knobs/register';**
 * then import in .storybook/config.js : **import { withKnobs } from '@storybook/addon-knobs'** and then wrrapped it in decorator: addDecorator(withKnobs);
 * check more complex example with meme-generator: **1h:18min**
-#### Testing React Components 
+#### Testing React Components
 * Capture Regressions
 * Ensure Proper Visual Content
 * Validate UX
@@ -414,7 +414,7 @@ command = "yarn ci && yarn build-storybook"
 * .test.js files
 * .spec.js files
 * Global Setup File:
-* src/setupTests.js - in this file we can mock external API globally for the whole project 
+* src/setupTests.js - in this file we can mock external API globally for the whole project
 **in package.json**
 "jest": {
   "snapshotSerializers": [
@@ -435,7 +435,7 @@ command = "yarn ci && yarn build-storybook"
 #### Jest Basic API
 * describe - grouping scoping
 * test/it - tests
-* beforeAll/afterAll - one time scope/repeating scope 
+* beforeAll/afterAll - one time scope/repeating scope
 * beforeEach/afterEach - repeating before/ after every test
 * expect(actual).matcher(expected) - assertion
 
@@ -452,7 +452,7 @@ command = "yarn ci && yarn build-storybook"
 * Shallow Rendering - usualy for container components only to check if the compoenent is rendered
 * Mount (Full) Rendering - for Integration tests
 
-#### Shallow Render 
+#### Shallow Render
 * Start at 1h: 52min
 * **Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components**
 * Testing components in isolation
@@ -485,7 +485,7 @@ command = "yarn ci && yarn build-storybook"
 * receiving a lot of good methods like toExist(), toHaveProp(), toHaveClassName(), toHaveValue() .etc..
 #### React Testing Library
 * **We try to only expose methods and utilities that encourage you to write tests that closely resemble how your web pages are used**
-* Builds on top of DOM Testing Library1 
+* Builds on top of DOM Testing Library1
 * Light-weight
 * Works with actual DOM nodes
 
@@ -507,7 +507,7 @@ command = "yarn ci && yarn build-storybook"
 * jest.spyOn(object, methodName)2 - wraps object[methodName] in mock function and returns the later
 * mockFn.methods
 
-#### Mocking Timers 
+#### Mocking Timers
 * jest.useFakeTimers() - Instructs Jest to use fake versions of the standard timer functions
 * jest.runAllTimers() - Exhausts both the macro-task queue and the micro-task  queue
 * jest.advanceTimersByTime(ms) - Executes only  queued task in the macro task queue
@@ -554,3 +554,5 @@ command = "yarn ci && yarn build-storybook"
 * code --install-extension xabikos.JavaScriptSnippets
 * code --install-extension xabikos.ReactSnippets
 * code --install-extension yzhang.markdown-all-in-one
+
+[Frustrations with hooks](https://blog.logrocket.com/frustrations-with-react-hooks/)
