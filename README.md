@@ -24,6 +24,7 @@
   * [Shallow Render](#shallow-render)
   * [Jest Enzyme addon](#jest-enzyme)
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
+  ### [Modern React](#modern-react) [Video](https://youtu.be/b8oV_qaqa4s)
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
 
@@ -555,4 +556,6 @@ command = "yarn ci && yarn build-storybook"
 * code --install-extension xabikos.ReactSnippets
 * code --install-extension yzhang.markdown-all-in-one
 
+#### Modern React
 [Frustrations with hooks](https://blog.logrocket.com/frustrations-with-react-hooks/)
+
