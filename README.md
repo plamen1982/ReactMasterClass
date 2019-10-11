@@ -599,7 +599,7 @@ command = "yarn ci && yarn build-storybook"
 
 ###### useContext
 * Accepts a context object(the value returned from React.createContext) and returns the current context value for that context - usually used for themes
-* Ex: **const context = useContext(ThemeContext), const ThemeContext = React.createContext({color: 'dark'}), <-App value={context}>App-> => Then use it in every component : const theme = useContext(ThemeContext), you should import ThemeContext whenever you want to use it**
+* Ex: **const context = useContext(ThemeContext), const ThemeContext = React.createContext({color: 'dark'}), <-App value={context}>App-> => Then use it in every component : const theme = useContext(ThemeContext), you should import ThemeContext whenever you want to use it** Change the value of the context only at highes level of you app
 
 ##### Rules for hooks
 * Do not call hooks inside of conditional(if, switch) statements or for, while loops. Since all hooks are stored in something like an array with all hooks waiting to be resoled and if the hooks is inside of a if statement or while loop it can happened that the order of the hooks are changed caused of resolving some other hook instead of the disered one because your hook is inside of while loop or if statement.
