@@ -28,6 +28,8 @@
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
 
+## [Moder react](#modern-react)
+
 #### Component
 *   Main building blocks: - **Reusability** and **Isolation**
 *   **Component props:** - **External** data coming from **parent to child**
@@ -559,3 +561,45 @@ command = "yarn ci && yarn build-storybook"
 #### Modern React
 [Frustrations with hooks](https://blog.logrocket.com/frustrations-with-react-hooks/)
 
+#### React hooks
+##### Why hooks were invented and problems they solved
+* Reusing logic - desired
+* Huge components - problem
+* Confusing classes with React Class Components - problem
+* Minified version won't minify method names
+* Unused methods won't get stripped out
+* Difficult with hot reloading and complier optimization
+
+#### What are hooks
+* Hooks are regular JavaScript functions that let you use React features (like state)
+* Adoption Strategy: 1. No breaking changes 2. Minimum increase in package size ~ 1.5kb
+
+##### Build-in Hooks
+###### useState => example: const [count, setCount] = useState(0), setCount is function for update the state(in the example count)
+###### useEffect
+* Perform side effect from a function - data fetching, subscriptions, manual change of the DOM
+* Serves the same purpose as componentDidMount, componentDidUpdate and componentWillUnmout
+* Let's you specify how to 'clean up' by returning function
+* Optimizing Performance 
+
+###### useLayoutEffect
+* Runs synchronously immediately after React has performed all mutations - Pretty much like useEffect but runs synchronously
+* Useful for DOM measurements
+
+###### useRef
+* returns reference to the element that **useRef** is deployed
+* useMemo - recomputes the memoized value when one of the dependencies has changed
+* Ex: const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]) - useful when fetching data only at certain moments not every time when is rendered
+
+###### useContext
+* Accepts a context object(the value returned from React.createContext) and returns the current context value fr that context - usually used for themes
+* Ex: **const context = useContext(ThemeContext), const ThemeContext = React.createContext({color: 'dark'})**
+
+##### Rules for hooks
+* Only call hooks at the top level of your React functions
+* Only Call Hooks from **React Functions** 
+* To enforce rules automatically use eslint-plugin-react-hooks
+
+##### Write your own hook
+* Lets you extract extract component logic into reusable functions
+* A custom Hook is a JavaScript function whose name starts with 'use' andd that may call other Hooks
