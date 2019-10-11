@@ -9,9 +9,6 @@ import {
 import "./App.css";
 
 function App() {
-    const [sort, setSort] = useState("1");
-    const [results, setResults] = useState([]);
-
     const useWindowSize = () => {
         const [size, setSize] = useState(window.innerWidth);
         useEffect(() => {
@@ -26,17 +23,24 @@ function App() {
         });
         return size;
     };
-    const size = useWindowSize();
-
-    useEffect(() => {
-        const request = new Request(
-            `https://jsonplaceholder.typicode.com/photos?albumId=${sort}`,
-            { method: "GET" }
-        );
-        fetch(request).then(data => {
-            data.json().then(results => setResults(results));
+    const useFetchedAlbums = sort => {
+        const [results, setResults] = useState([]);
+        useEffect(() => {
+            const request = new Request(
+                `https://jsonplaceholder.typicode.com/photos?albumId=${sort}`,
+                { method: "GET" }
+            );
+            fetch(request).then(data => {
+                data.json().then(results => setResults(results));
+            });
         });
-    }, [sort]);
+        return results;
+    };
+    const size = useWindowSize();
+    const [sort, setSort] = useState("1");
+
+    const results = useFetchedAlbums(sort);
+    useEffect(() => {}, [sort]);
     const handleOnChange = event => {
         setSort(event.target.value);
     };
