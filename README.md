@@ -609,14 +609,16 @@ command = "yarn ci && yarn build-storybook"
 * A custom Hook is a JavaScript function whose name starts with 'use' and that may call other Hooks inside of it usually **useState(used for creating local isolated state for the custom hook)** and **useEffect(for using the cycle state of the components that using this custom hook)** 
 ##### Example:
 * const useWindowSize = () => {
-*      const [size, setSize] = useState(window.innerWidth);
-*      const handleResize = () => {
-*          setSize(window.innerWidth);
-*          return size;
-*      };
-*      window.addEventListener("resize", handleResize);
-*      return () => {
-*          window.removeEventListener("resize", handleResize);
-*      };
-*  };
-##### Demo hooks ~ 32 min
+*    const [size, setSize] = useState(window.innerWidth);
+*    useEffect(() => {
+*        const handleResize = () => {
+*            setSize(window.innerWidth);
+*        };
+*        window.addEventListener("resize", handleResize);
+*        return () => {
+*            window.removeEventListener("resize", handleResize);
+*        };
+*    });
+*    return size;
+*};
+##### Demo hooks ~ 32 min - 50 min
