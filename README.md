@@ -595,7 +595,7 @@ command = "yarn ci && yarn build-storybook"
 ###### useRef
 * returns reference to the element that **useRef** is deployed
 * useMemo - recomputes the memoized value when one of the dependencies has changed
-* Ex: const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]) - useful when fetching data only at certain moments not every time when is rendered
+* Ex: const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]) - useful when fetching data only at certain moments not every time when the component is rendered
 
 ###### useContext
 * Accepts a context object(the value returned from React.createContext) and returns the current context value fr that context - usually used for themes
