@@ -29,7 +29,11 @@
 [Video](https://youtu.be/zlpYShDdY_c)
 
 ## [Moder react](#modern-react)
-
+#### [Why hooks were invented and problems they solved](#Why-hooks-were-invented-and-problems-they-solved)
+#### [What are hooks](#what-are-hooks)
+#### [Build-in Hooks](#build-in-hooks)
+#### [Rules for hooks](rules-for-hooks)
+#### [Write you own hook](#write-you-own-hook)
 #### Component
 *   Main building blocks: - **Reusability** and **Isolation**
 *   **Component props:** - **External** data coming from **parent to child**
@@ -602,5 +606,5 @@ command = "yarn ci && yarn build-storybook"
 
 ##### Write your own hook
 * Lets you extract extract component logic into reusable functions
-* A custom Hook is a JavaScript function whose name starts with 'use' andd that may call other Hooks
+* A custom Hook is a JavaScript function whose name starts with 'use' and that may call other Hooks inside of it usually **useState(used for creating local isolated state for the custom hook)** and **useEffect(for using the cycle state of the components that using this custom hook)** 
 ##### Demo hooks ~ 32 min
