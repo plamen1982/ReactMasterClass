@@ -28,11 +28,11 @@
 
 
 ## [Moder react](#modern-react)
-#### [Why hooks were invented and problems they solved](#Why-hooks-were-invented-and-problems-they-solved)
-#### [What are hooks](#what-are-hooks)
-#### [Build-in Hooks](#build-in-hooks)
-#### [Rules for hooks](rules-for-hooks)
-#### [Write you own hook](#write-you-own-hook)
+* [Why hooks were invented and problems they solved](#why-hooks-were-invented-and-problems-they-solved)
+* [What are hooks](#what-are-hooks)
+* [Build-in Hooks](#build-in-hooks)
+* [Rules for hooks](#rules-for-hooks)
+* [Write you own hook](#write-you-own-hook)
 
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
