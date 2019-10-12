@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { connect } from "react-redux";
-import { makeStyles } from "@material-ui/core";
+import { useSelector, useDispatch, connect } from "react-redux";
 import { downCounter, upCounter } from "./actions/counter";
 import { login } from "./actions/user";
 import { bindActionCreators } from "redux";
 
 const Main = props => {
+    const { counter, user } = useSelector(state => state);
     const [username, setUsername] = useState("");
 
     const _onUsernameChange = event => setUsername(event.target.value);
@@ -57,17 +57,13 @@ const Main = props => {
                 <input value={username} onChange={_onUsernameChange} />
                 <button onClick={_onLoginPress}>Login</button>
 
-                <p>Logged ?: {props.user.isLogged.toString()}</p>
-                <p>
-                    Username ?:{" "}
-                    {props.user.info ? props.user.info.username : ""}
-                </p>
+                <p>Logged ?: {user.isLogged.toString()}</p>
+                <p>Username ?: {user.info ? user.info.username : ""}</p>
             </div>
 
             <div className={styles.counterWrapper}>
                 <p>
-                    The count is:{" "}
-                    <p className={styles.countText}>{props.counter}</p>
+                    The count is: <p className={styles.countText}>{counter}</p>
                 </p>
                 <button onClick={_onIncrementPress}>Increment</button>
                 <button onClick={_onDecrementPress}>Decrement</button>
@@ -87,14 +83,7 @@ const mapDispatchToProps = dispatch => {
     );
 };
 
-const mapStateToProps = state => {
-    return {
-        counter: state.counter,
-        user: state.user
-    };
-};
-
 export default connect(
-    mapStateToProps,
+    null,
     mapDispatchToProps
 )(Main);
