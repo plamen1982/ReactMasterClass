@@ -643,7 +643,7 @@ or convention outside of a running app - Example: if you have in your app functi
 ##### Route Matchers - in the Route component
 * Renders some UI when its path matched the current URL
 * Render methods props - **component**, **render**, **children**
-* in **component** methods props is important not to have callback arrow functions since this when this route is rendered every time React will think that this is a new instance 
+* in **component** methods props is important not to have callback arrow functions since when this route is rendered every time React will create a new instance of the component that is accepted
 * Route props - **match**, **location**, **history**
 * Ex:
 * <Route path="/home" render={() => "div" Home "/div"}>
@@ -658,8 +658,8 @@ or convention outside of a running app - Example: if you have in your app functi
 ###### **match** - contains information about how a <Route path /> matched the URL, a list of these properties are:
 * **params** - Key/value pairs parsed from the URL corresponding to the dynamic segments of the path
 * **isExact** - true if the entire URL was matched (no trailing characters)
-* **path** -The path pattern used to match. Useful for building nested <Route>s
-* **url** - The matched portion of the URL. Useful for building nested <Link>s
+* **path** -The path pattern used to match. Useful for building nested Routes
+* **url** - The matched portion of the URL. Useful for building nested Links
 * **location** - represent where the is now, where you want it to go, or even where is was
 the **value of the location property** is a object like this one => **{ key: 'ac3df4', pathname: '/somewhere', search: '?some=search-string', hash: '#howdy', state: { [userDefined]: true } }** - the **state** object is the place where we can add some information that we would like to use in the navigation
 ###### **history** - wrapper around the several different implementations for managing session history in JavaScript in various environment: history property is mutable object
@@ -729,3 +729,11 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 *     </Router>
 *   )
 * }
+
+##### React Profiler 
+* 1h:35min from the video
+* [React Profiler official documentation](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
+###### Introduction
+* Render phase - determines what changes need to be made to e.g. the DOM - is the moment when React decide what kind of changes needs to be applied to the DOM
+* Commit phase - React applies any changes - the moment when React is applied the changes to the DOM
+* Profiler ignores Render phase and working only with the Commit phase
