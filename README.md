@@ -26,6 +26,8 @@
   * [browserrl.ist - check supported browsers for the configuration in package.json at browserslist: {production}](https://browserl.ist/?q=%3E+0.2%25%2C+not+dead%2C+not+op_mini+all)
   ### [Modern React](#modern-react) [Video](https://youtu.be/b8oV_qaqa4s)
 
+  ### Additional topics
+  * [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
 
 ## [Moder react](#modern-react)
 * [Why hooks were invented and problems they solved](#why-hooks-were-invented-and-problems-they-solved)
@@ -37,11 +39,9 @@
 ## React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
 #### Component
-*   Main building blocks: - **Reusability** and **Isolation**
-*   **Component props:** - **External** data coming from **parent to child**
-*****   **Immutable***   Accessed from **single object argument** for functional components****
-
-****
+*  Main building blocks: - **Reusability** and **Isolation**
+*  **Component props:** - **External** data coming from **parent to child**
+*  **Immutable**   Accessed from **single object argument** for functional components
 
 #### JSX (JavaScriptXML)
 *   Combines markup with logic. **JavaScript Expressions -> {}**
