@@ -1,39 +1,21 @@
 import React from "react";
 import { Provider } from "react-redux";
-import localforage from "localforage";
-import { persistStore } from "redux-persist";
+import { PersistGate } from "redux-persist/lib/integration/react";
+import { persistor, store } from "./store";
 
-import store from "./store";
 import Main from "./Main";
 
-class App extends React.Component {
-    state = {
-        isReady: false
-    };
-
-    componentDidMount() {
-        persistStore(
-            store,
-            {
-                storage: localforage,
-                whitelist: ["user", "counter"]
-            },
-            () => {
-                this.setState({ isReady: true });
-            }
-        );
-    }
-
-    render() {
-        if (!this.state.isReady) {
-            return <div>...Loading</div>;
-        }
-        return (
-            <Provider store={store}>
+const App = () => {
+    return (
+        <Provider store={store}>
+            <PersistGate
+                loading={() => <div>..Loading</div>}
+                persistor={persistor}
+            >
                 <Main />
-            </Provider>
-        );
-    }
-}
+            </PersistGate>
+        </Provider>
+    );
+};
 
 export default App;

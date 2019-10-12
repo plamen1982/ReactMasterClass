@@ -1,6 +1,16 @@
-import { createStore, compose } from "redux";
-import { autoRehydrate } from "redux-persist";
-
+import { createStore } from "redux";
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+import autoMergeLevel2 from "redux-persist/lib/stateReconciler/autoMergeLevel2";
 import rootReducer from "./reducers";
 
-export default createStore(rootReducer, undefined, compose(autoRehydrate()));
+const persistConfig = {
+    key: "root",
+    storage: storage,
+    blacklist: ["user"],
+    stateReconciler: autoMergeLevel2
+};
+
+const pReducer = persistReducer(persistConfig, rootReducer);
+export const store = createStore(pReducer);
+export const persistor = persistStore(store);

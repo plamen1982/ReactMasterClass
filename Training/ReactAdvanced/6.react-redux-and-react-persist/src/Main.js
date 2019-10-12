@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-// import { div, p, StyleSheet } from "react-native";
-// import { label, input, button } from "react-native-elements";
 import { connect } from "react-redux";
 import { makeStyles } from "@material-ui/core";
 import { downCounter, upCounter } from "./actions/counter";
 import { login } from "./actions/user";
+import { bindActionCreators } from "redux";
 
 class Main extends Component {
     state = {
-        username: ""
+        username: "",
+        counter: 0
     };
 
     _onUsernameChange = username => this.setState({ username });
@@ -20,7 +20,7 @@ class Main extends Component {
     _onLoginPress = () => this.props.login({ username: this.state.username });
 
     render() {
-        const useStyles = makeStyles({
+        const styles = {
             container: {
                 flex: 1,
                 backgroundColor: "#fff",
@@ -51,8 +51,7 @@ class Main extends Component {
                 fontSize: 20,
                 fontWeight: "bold"
             }
-        });
-        const styles = useStyles();
+        };
         return (
             <div className={styles.container}>
                 <p className={styles.title}>Learn to use Redux-Persist!!!</p>
@@ -79,18 +78,32 @@ class Main extends Component {
                         The count is:{" "}
                         <p className={styles.countText}>{this.props.counter}</p>
                     </p>
-                    <button onClick={this._onIncrementPress}> Increment</button>
+                    <button onClick={this._onIncrementPress}>Increment</button>
                     <button onClick={this._onDecrementPress}>Decrement</button>
                 </div>
             </div>
         );
     }
 }
+const mapDispatchToProps = dispatch => {
+    return bindActionCreators(
+        {
+            downCounter,
+            upCounter,
+            login
+        },
+        dispatch
+    );
+};
+
+const mapStateToProps = state => {
+    return {
+        counter: state.counter,
+        user: state.user
+    };
+};
 
 export default connect(
-    state => ({
-        user: state.user,
-        counter: state.counter
-    }),
-    { downCounter, upCounter, login }
+    mapStateToProps,
+    mapDispatchToProps
 )(Main);
