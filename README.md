@@ -34,7 +34,7 @@
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
 
-## Additional topics out of the course
+## Additional topics out of the scope of the course
   * [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
   * [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
 ## React Advanced
