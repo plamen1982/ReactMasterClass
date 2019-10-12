@@ -625,3 +625,38 @@ command = "yarn ci && yarn build-storybook"
 *    return size;
 *};
 ##### Demo hooks ~ 32 min - 50 min
+#### React router
+##### Philosophy
+* Static Routing - routes are declared and execute before the app starts/renders
+* Dynamic routing - routing takes place as your app is rendering not in a configuration 
+or convention outside of a running app - Example: if you have in your app functionality for mobile devices and desktop devices you can easily make a condition in what cases which one should be called(in the render props of the Route)
+##### Routers
+* [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+* **BrowserRouter** - uses in 90% of the cases
+* Uses regular URL paths - http://example.com/your/page
+* Wrapped around [browser's session history API](https://developer.mozilla.org/en-US/docs/Web/API/History_API) so you can have cross platform experience 
+* Requires server configurations(react-create-app is doing that for us)
+* We can also create route that will communicate with the server and the html it will be returned from the server it is used for optimizations(when we do not want to load everything from the client and the size of the client app will go down)
+* **HasRouter**
+* Stores the current location in the hash portion of the URL http://example.com/#/your/page
+* No limitations of supported brwosers
+##### Route Matchers - in the Route component
+* Renders some UI when its path matched the current URL
+* Render methods props - **component**, **render**, **children**
+* in **component** methods props is important not to have callback arrow functions since this when this route is rendered every time React will think that this is a new instance 
+* Route props - **match**, **location**, **history**
+* Ex:
+* <Route path="/home" render={() => "div" Home "/div"}>
+* <Route
+* path={to}
+* children={({match}) => (
+*  "li" className={match ? 'active': ''}>
+*   <Link to={to} {...rest} />
+*   "/li"
+* )}>
+##### Router Props
+* **match** - contains information about how a <Route path /> matched the URL, a list of these properties are:
+*   **params** - Key/value pairs parsed from the URL corresponding to the dynamic segments of the path
+*   **isExact** - true if the entire URL was matched (no trailing characters)
+*   **path** -The path pattern used to match. Useful for building nested <Route>s
+*   **url** - The matched protion of the URL. Usseful for building nested <Link>s
