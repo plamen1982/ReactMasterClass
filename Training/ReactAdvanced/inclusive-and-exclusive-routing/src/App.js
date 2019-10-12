@@ -7,7 +7,7 @@ const User = () => <div className="page">User</div>;
 const NoMatch = () => <div className="page">NoMatch</div>;
 
 function App() {
-    //Go to about page and uncomment the two cases and play
+    //Go to about page and uncomment one of the two cases and play
     return <InclusiveRouter />;
     // return <ExclusiveRouter />;
 }

@@ -675,3 +675,10 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * const ShowTheLocation () => <Navigation>Login<Navigation>; const ShowTheLocationWithRouter = withRouter(ShowTheLocation)
 ##### Switch - when we wrap our Routes compoents the order of the Route compoentns is very important since when the Switch hit the first Route component it stops looking further
 * Renders a router **exclusively**. In contrast, every Route that matches the location renders inclusively
+
+##### React Navigation
+* **<Link />** - Create links in your application
+* **<NavLink />** - Special type of <Link> that can style itself as "active" when its to props matches the current location
+* **<Redirect />** - Will navigate using its to prop
+* Demo [Route authentication](https://reacttraining.com/react-router/web/example/auth-workflow) from the official documentation
+* Demo in the video - ~ 1h: 13min - with small changes from the official documentation
