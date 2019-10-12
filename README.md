@@ -673,5 +673,5 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * **goForward()** - Equivalent to **go(-1)**
 ###### **withRouter**(HOC) - passes **match**, **location** and **history** props to the wrapper component whenever it renders: import {withRouter} from 'react-router'
 * const ShowTheLocation () => <Navigation>Login<Navigation>; const ShowTheLocationWithRouter = withRouter(ShowTheLocation)
-##### Switch
+##### Switch - when we wrap our Routes compoents the order of the Route compoentns is very important since when the Switch hit the first Route component it stops looking further
 * Renders a router **exclusively**. In contrast, every Route that matches the location renders inclusively
