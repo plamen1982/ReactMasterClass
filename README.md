@@ -687,3 +687,45 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * useParams()
 * useHistory()
 * useLocation()
+#### Code splitting [Official documentation Code Splitting](https://create-react-app.dev/docs/code-splitting) - Instead of downloading the entire app before users can use it, code splitting allows you to split your code into small chunks which you can then load on demand.
+##### Introduction 
+* Bundling - following imported files and merging then into single file : a "bundle" - basically Bundling is: a **tool(Webpack in React)** going into the files in your application and creating **Dependency Graph** and then all files based on this Dependency Graph are merged into one file called "bundle". Bundling is very helpful for optimizations and Webpack is stripping the files that are not used. 
+* **Bundling is very helpful** for areas where the **internet** is with **bad quality** and the need for loading less is on demand
+* Laziness - an evaluation strategy which delays the evaluation of an expression until its value is needed
+* Code Splitting - Slice a code base into smaller chunks that can be loaded on-demand
+##### React.Lasy
+* Dynamic import => **Ex with Dynamic imports** import("math").then(math => console.log(math.add(16, 26))); - when Webpack go through files and see this syntax Webpack is putting this file in separate bundle
+* **Ex without dynamic imports** => import { add } from './match' 
+* React.lazy
+* **Ex without React.lazy** import OtherComponent from './OtherComponent;
+* **Ex with React.lazy** const OtherComponent = React.lazy (() => import('./OtherComponent)); - this component will be load in the moment when we are going to rendered or when is needed
+###### Suspense
+* Allow us to show fallback content
+* **Ex:**
+* const OtherComponent = React.lazy(() => import('./OtherComponent'));
+* const MyComponent = () => {
+*   return (
+*     <>
+*       <Suspense fallback={'div'...Loading'...div'}>
+*         <OtherComponent>
+*       <Suspense>
+*     </>
+*   )
+* }
+* **fallback** property is a way to show different content on the screen during the time when <OtherComponent> is loading
+* **Ex:**
+* import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+* import React, { Suspense, lazy } from 'react';
+* const Home = React.lazy(() => import('./routes/Home'));
+* const About = React.lazy(() => import('./routes/About'));
+* const App = () => {
+*     <Router>
+*       <Suspense fallback={'div'...Loading'...div'}>
+*          <Switch>
+*           <Route exact path='/' component={Home}>
+*           <Route exact path='/about' component={About}>
+*         </Switch>
+*       <Suspense>
+*     </Router>
+*   )
+* }
