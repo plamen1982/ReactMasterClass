@@ -677,8 +677,13 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * Renders a router **exclusively**. In contrast, every Route that matches the location renders inclusively
 
 ##### React Navigation
-* **<Link />** - Create links in your application
-* **<NavLink />** - Special type of <Link> that can style itself as "active" when its to props matches the current location
-* **<Redirect />** - Will navigate using its to prop
+* **Link** - Create links in your application
+* **NavLink** - Special type of <Link> that can style itself as "active" when its to props matches the current location
+* **Redirect** - Will navigate using its to prop
 * Demo [Route authentication](https://reacttraining.com/react-router/web/example/auth-workflow) from the official documentation
 * Demo in the video - ~ 1h: 13min - with small changes from the official documentation
+##### React Router 5.1 - hooks are introduced
+* **Ex**: const BlogPost ({ match }) => { const slug = match.props } === const BlogPost() { const { slug } = useParams()} - analogical is for all React hooks
+* useParams()
+* useHistory()
+* useLocation()
