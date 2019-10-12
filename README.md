@@ -2,7 +2,7 @@
 
 ## Content
 
-### [React Advanced](#react-advanced) [Video](https://youtu.be/zlpYShDdY_c)
+### [React Advanced](#react-advanced) - [Video](https://youtu.be/zlpYShDdY_c)
   * [Component](#component)
   * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
   * [Component Re-render Causes](#component-re-render-causes)
@@ -15,7 +15,7 @@
   * [Render Props](#render-props)
   * [Inversion of control](#inversion-of-control)
   * [React Context](#react-context)
-### [Creating React Applications](#creating-a-react-application) [Video](https://youtu.be/FNM-Dfdzlyw)
+### [Creating React Applications](#creating-a-react-application) - [Video](https://youtu.be/FNM-Dfdzlyw)
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
   * [Testing React Components](#testing-react-components)
@@ -27,17 +27,17 @@
 
 
 
-## [Moder react](#modern-react) [Video](https://youtu.be/b8oV_qaqa4s)
+### [Moder react](#modern-react) - [Video](https://youtu.be/b8oV_qaqa4s)
 * [Why hooks were invented and problems they solved](#why-hooks-were-invented-and-problems-they-solved)
 * [What are hooks](#what-are-hooks)
 * [Build-in Hooks](#build-in-hooks)
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
 
-## Additional topics out of the scope of the course
+### Additional topics out of the scope of the course
   * [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
   * [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
-## React Advanced
+### React Advanced
 [Video](https://youtu.be/zlpYShDdY_c)
 #### Component
 *  Main building blocks: - **Reusability** and **Isolation**
