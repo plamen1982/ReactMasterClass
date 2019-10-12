@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch, connect } from "react-redux";
-import { downCounter, upCounter } from "./actions/counter";
-import { login } from "./actions/user";
+import { downCounter, upCounter, login } from "./actions";
 import { bindActionCreators } from "redux";
 
 const Main = props => {
     const { counter, user } = useSelector(state => state);
+    const dispatch = useDispatch();
+
     const [username, setUsername] = useState("");
 
     const _onUsernameChange = event => setUsername(event.target.value);
 
-    const _onIncrementPress = () => props.upCounter();
+    const _onIncrementPress = () => dispatch(upCounter());
 
-    const _onDecrementPress = () => props.downCounter();
+    const _onDecrementPress = () => dispatch(downCounter());
 
-    const _onLoginPress = () => props.login({ username });
+    const _onLoginPress = () => dispatch(login({ username }));
 
     const styles = {
         container: {
@@ -72,18 +73,4 @@ const Main = props => {
     );
 };
 
-const mapDispatchToProps = dispatch => {
-    return bindActionCreators(
-        {
-            downCounter,
-            upCounter,
-            login
-        },
-        dispatch
-    );
-};
-
-export default connect(
-    null,
-    mapDispatchToProps
-)(Main);
+export default Main;

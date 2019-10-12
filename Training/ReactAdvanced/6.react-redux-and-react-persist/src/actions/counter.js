@@ -1,11 +1,13 @@
-export function upCounter() {
+const upCounter = () => {
     return {
         type: "counter/UP"
     };
-}
+};
 
-export function downCounter() {
+const downCounter = () => {
     return {
         type: "counter/DOWN"
     };
-}
+};
+
+export { upCounter, downCounter };
