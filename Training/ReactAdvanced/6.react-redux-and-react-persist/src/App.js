@@ -1,9 +1,9 @@
-import React from "react";
-import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/lib/integration/react";
-import { persistor, store } from "./store";
+import React from 'react';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/lib/integration/react';
+import { persistor, store } from './store';
 
-import Main from "./Main";
+import Main from './Main';
 
 const App = () => {
     return (
