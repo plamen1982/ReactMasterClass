@@ -744,5 +744,6 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * Profiler ignores Render phase and working only with the Commit phase
 
 #### Articles-React:
-* [Introduction to env variables (An introduction to env variables](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
+* [introduction-to-env-variables](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+* [testing-react-hooks-state-changes-2og](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
