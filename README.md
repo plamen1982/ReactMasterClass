@@ -1,6 +1,6 @@
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
-# [articles-react](Articles-React)
+# [React articles](#articles-react)
 
 # ReactMasterClass
 
