@@ -747,3 +747,8 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [introduction-to-env-variables](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
 * [testing-react-hooks-state-changes-2og](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
+* [environments-with-create-react-app](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
+* [can-i-dispatch-multiple-actions-from-redux-action-creators](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
+* [my-journey-to-make-styling-with-material-ui-right](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
+* [javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1](can-you-console-log-in-jsx)
+* []()
