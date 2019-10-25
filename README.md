@@ -758,4 +758,5 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 #### Articles-Docker
 
 * [https://afourtech.com/guide-docker-commands-examples/](guide-docker-commands-examples)
+* [https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886](practical-tips-for-cheating-at-design)
 * []()
