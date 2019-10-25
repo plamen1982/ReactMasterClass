@@ -749,14 +749,100 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * Commit phase - React applies any changes - the moment when React is applied the changes to the DOM
 * Profiler ignores Render phase and working only with the Commit phase
 
-### graphql-introductin
+### graphql-introduction
 #### Content
 * Traditional REST
 * What is GraphQL
-* Cocepts in GraphQL
+* Concepts in GraphQL
 
-#### Traditional REST
-* data is request from the client to the restful back-end throuw http protocol
+#### traditional-rest
+* data is request from the client to the restful back-end through http protocol
+#### resources-in-rest
+* the idea is the everything it our system is called resource and fetch through url(end-point)
+* There is not limit in the format of data that will be returned is can by xml, json ...
+#### rest-principals
+* Uniform interface -we always use the http verbs(GET, POST, PUT, PATCH DELETE)
+* Stateless - each request is self-descriptive
+* Clint-server - client should be separated from the server, so each of them can be developed individually
+* Cashable - caching shall be applied to resources applicably and those resource should be explicitly marked as cashable
+#### what-is-graphql
+* New API standard that enables declarative data fetching
+* Developed internally at Facebook in 2012 and open sourced in 2015
+* Exposes a single endpoint (ass opposed to REST) and responds only with the data requested from the client 
+* Aims to provide more powerful and flexible alternative to REST
+#### graphql-advantages
+* provides declarative data retrieval istead of imperative
+* remove overfetching and underfetching (n+1 problem)
+* improves rapid development
+* we ca get as much data as we want with a single request to the database
+#### Concepts in GraphQl
+* Type Schema Definition Language (SDL)
+* Type system
+* Queries
+* Mutations
+* Client
+* Server
+  
+#### Schema definition language (SDL)
+* GrapthQL has own type system that is used to define the schema of the API
+* The syntax for writing schemas is called SDL
+* Example: -> type Person { name: String! age: Int! posts: [Post!]! } ; type Post { type: String! author: Person! }
+* When we have ! -> is non nullable -> it means that this field is required when we making queries. posts:[Post!]! is List(array) with Post type objects
+  
+#### GraphQL language is basically about selecting fields on objects
+* Example: { person { id name } }
+* The query starts from special "root" object
+* From that object, select the person field
+* For the object returned for the person field, select id and name
+  
+#### Type system 
+* Every GraphQL server defines a schema which describe the set of possible data that can be queried
+* The schema answers the following questions
+* What types can be queried?(e.g Person and Post)
+* What fields/sub-fields can be selected?
+* What is the actual type of a field?(e.g String, Int..)
+  
+#### Non-nullable - definition
+* By default, all types in GraphQL are nullable; the null value is a valid response for all of the above types. To declare a type that disallows null, the GraphQL Non‐Null type can be used. This type wraps an underlying type, and this type acts identically to that wrapped type, with the exception that null is not a valid response for the wrapping type. A trailing exclamation mark is used to denote a field that uses a Non‐Null type like this: name: String!.
+  
+#### Object types
+* The basic components fo GraphQL schema are Object types
+* It's just an object with fields
+* Example: type Person { name: String! posts: [Post!]!}
+* Person is GraphQL Object Type
+* String! means that the name filed is of the type string and in non-nullable
+* [Posts!]! means that the posts field is an array of non-nullable Post objects and that the array itself in non-nullable
+
+#### Field arguments 
+* Every field can have aero or more arguments 
+* The arguments can be optionsl and required 
+* Passed by name (unlike function arguments in JS)
+* Example: type Person { name: String! posts(first: Int = 3): [Post!]! }
+
+#### Query and Mutation object types
+* Special object types that act like the entry point of the API
+* Query is mandatory for every schema(this is the root of our entry point and needs to be Query), Mutation is optional
+* Example: query { person { name } } , type Query { person: Person } -> in th
+
+#### Scalar types
+* Scalar types are the leaves of the query(they don't have sub-fields)
+* Int - A signed 32-bit integer
+* Float - A signed double-precision floating-point value
+* String - A UTF-8 character sequence
+* Boolean - true or false
+* ID - unique identifier used for caching
+  
+#### Enumeration types
+* Special kind of scalar restricted to a particular set of values
+* Example: enum PersonTYpe { USER ADMIN } => type Person { type: PersonType }
+
+#### Interfaces
+* Interfaces are abstract types that define set of fields 
+* Example interface Person { id: Int name: String }, type User implements Person { id: Int name: String } posts: [Post!]! }, type Admin implements Person { id: Int name: String adminRoles: [Role!]! } 
+  
+
+
+
 #### Articles-React:
 
 * [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
