@@ -754,9 +754,12 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82](internationalizing-a-front-end-application)
 * [https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/](react-hooks-cheat-sheet-unlock-solutions-to-common-problems)
 * [https://overreacted.io/a-complete-guide-to-useeffect/](a-complete-guide-to-useeffect)
+* [https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea](container-vs-presentational-components-in-react)
 
 #### Articles-Docker
 
 * [https://afourtech.com/guide-docker-commands-examples/](guide-docker-commands-examples)
 * [https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886](practical-tips-for-cheating-at-design)
+* [https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template](better-commit-messages-with-a-gitmessage-template)
+
 * []()
