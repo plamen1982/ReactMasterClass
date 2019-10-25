@@ -1,5 +1,10 @@
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
+### Requirement to be a programmer
+#### Learn to find solutions!!!
+#### Softare development includes everyday searching and learning 
+#### No exuses, just learn to study. And Remember the execuses that we telling to ourself are lies!
+#### Developers learn new technologies, tolls, languages every day!
 # [React articles](#articles-react)
 
 # ReactMasterClass
@@ -738,11 +743,20 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 ##### React Profiler 
 * 1h:35min from the video
 * [React Profiler official documentation](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
+
 ###### Introduction
 * Render phase - determines what changes need to be made to e.g. the DOM - is the moment when React decide what kind of changes needs to be applied to the DOM
 * Commit phase - React applies any changes - the moment when React is applied the changes to the DOM
 * Profiler ignores Render phase and working only with the Commit phase
 
+### graphql-introductin
+#### Content
+* Traditional REST
+* What is GraphQL
+* Cocepts in GraphQL
+
+#### Traditional REST
+* data is request from the client to the restful back-end throuw http protocol
 #### Articles-React:
 
 * [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
@@ -763,4 +777,6 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 * [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+
+* [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 * []()
