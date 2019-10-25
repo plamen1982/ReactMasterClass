@@ -13,7 +13,7 @@
 
 ### [React Advanced](#react-advanced) - [Video](https://youtu.be/zlpYShDdY_c)
   * [Component](#component)
-  * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
+  * [JSX JavaScriptXML](#jsx-javascriptxml)
   * [Component Re-render Causes](#component-re-render-causes)
   * [Presentational Components(Dumb, Skinny)](#presentational-components-or-dumb-or-skinny)
   * [Container Components(Smart, Fat)](#container-components-or-smart-or-fat)
@@ -24,6 +24,7 @@
   * [Render Props](#render-props)
   * [Inversion of control](#inversion-of-control)
   * [React Context](#react-context)
+
 ### [Creating React Applications](#creating-a-react-application) - [Video](https://youtu.be/FNM-Dfdzlyw)
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
@@ -42,6 +43,33 @@
 * [Build-in Hooks](#build-in-hooks)
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
+
+### GrqphQL Introduction
+[graphql-introduction-graphql](#graphql-introduction-graphql)
+[traditional-rest-graphql](#traditional-rest-graphql)
+[resources-in-rest-graphql](#resources-in-rest-graphql)
+[rest-principals-graphql](#rest-principals-graphql)
+[what-is-graphql-graphql](#what-is-graphql-graphql)
+[graphql-advantages-graphql](#graphql-advantages-graphql)
+[concepts-in-graphql-graphql](#concepts-in-graphql-graphql)
+[schema-definition-language-sdl-graphql](#schema-definition-language-sdl-graphql)
+[graphql-language-is-basically-about-selecting-fields-on-objects-graphql](#graphql-language-is-basically-about-selecting-fields-on-objects-graphql)
+[type-system-graphql](#type-system-graphql)
+[non-nullable-definition-graphql](#non-nullable-definition-graphql)
+[object-types-graphql](#object-types-graphql)
+[field-arguments-graphql](#field-arguments-graphql)
+[query-and-mutation-object-types-graphql](#query-and-mutation-object-types-graphql)
+[scalar-types-graphql](#scalar-types-graphql)
+[enumeration-types-graphql](#enumeration-types-graphql)
+[interfaces-graphql](#interfaces-graphql)
+[query-arguments-graphql](#query-arguments-graphql)
+[fields-aliases-graphql](#fields-aliases-graphql)
+[fragments-similar-to-spread-operator-in-js](#fragments-similar-to-spread-operator-in-js)
+[variables-graphql](#variables-graphql)
+[directives-graphql](#directives-graphql)
+[__typename-field-it-is-metatype-data-graphql](#__typename-field-it-is-metatype-data-graphql)
+[mutations-graphql](#mutations-graphql)
+[retrospection-tool-for-extracting-information-about-our-schema-graphql](#retrospection-tool-for-extracting-information-about-our-schema-graphql)
 
 ### Additional topics out of the scope of the course
   * [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
@@ -839,9 +867,53 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 #### Interfaces
 * Interfaces are abstract types that define set of fields 
 * Example interface Person { id: Int name: String }, type User implements Person { id: Int name: String } posts: [Post!]! }, type Admin implements Person { id: Int name: String adminRoles: [Role!]! } 
+* Example with the Schema above: query { person { id name } ... on User { posts { title } } ... on Admin { adminRoles } }  
+* response will be from the query above: { "data": { "persons" : [ "id": 1, "name": "User", "posts": [{"title": "Some post"}], "id": 2, "name": "Admin", "adminRoles": [{"name": "moderator"} ] } }
+
+#### Query arguments
+* In GraphQL query, every field can get it's own set of arguments 
+* Example: { person(id: 1) { name posts(title: "graphql") { id content } } }
+
+#### Fields aliases
+* It's possible to request the same field mulptiple times in a single query
+* Example: { query { { person(id: 1) { name } person(id: 2) { name } } } }  => It will become { query { { normalUser: person(id: 1) { name } adminUser: person(id: 2) { name } } } }
+
+#### Fragments similar to spread operator in JS
+* very useful in big queries with 200 - 300 fields
+* Allows us to reuse parts of the query
+* Definition of fragments Example: fragment PersonFields on Person { id name }, { query { normalUser: person(id: 1) { ... PersonFields } adminUser: person(id: 2) { ... PersonFields } } }
+
+#### Variables
+* Provides a way to remove the hard-coded query arguments
+* The variables dictionary is passed in the body of the HTTP request
+* Example: { query personWithPosts$id: Int!, $first: int) { person(id: $id) { name posts(first: $first) { title } } } } - and in the GraphiQL in the section of QUERY VARIABLES(DOWN LEFT SECTION) we adding the value of the id like this -> { "id": 1 }, the body of our post request will be { operationName: "personWithPosts", query: "{ person(id: $id) { name posts(first: $first) { title } } }", variable: { id: 1 } }  
+
+#### Directives
+* Used to dynamically change the shape and structure of queries
+* Example: query Person($id: Int, $withPost: Boolean!) { person(id: $id) { name posts @include(if: $withPosts) { name } } }
+* A directive can be attached to any field or fragment inclusion
+* Can affect the execution of the query in any way the server desires
+* The GraphQl Spec includes two directives @include(if: Boolean) - it will include this field if the argument is true and @skip(if: Boolean) - it will skip if the argument is true
+* Server implementations may have some experimental directives
   
+#### __typename field-it-is-metatype-data
+* return the type of a field
+* It is useful when we need the type field for rendering purposes in the project will need it!
+* In some cases we need to know the return type of a field
+* Include the **__typename** field at any point of the query to get the return type of that field
+* Example: { query { __typename id { { normalUser: person(id: 1) { ... PersonFields } } { __typename id adminUser: person(id: 2) { ... PersonFields } } } } } and the response will be something like:  { "data": { "persons" : [ { "__typename": "User", "id": 1, "name": "User", "posts": [{"title": "Some post"}] }, {"__typename": "Admin", "id": 2, "name": "Admin", "adminRoles": [{"name": "moderator"} ] } } }
 
+#### Mutations
+* By convention Queries only fetch data and don't couse side effects
+* For side effects and data chages use Mutations
+* Example: type PersonInput { name: String age: Int } , mutation CratePerson($input: PersonInput) { createPerson(input: $input) { id name } } - in the curly brackets this is the result returned from the back-end we can start using the same syntax when we writing a query and use the result(id and name) in this query
 
+#### Retrospection - tool for extracting information about our schema
+* __schema { types queryType mutationType subscriptionType directives } - returns all types custom and build-in from our schema
+* Example: { __schema { types { name } } } -> response will be: { "data": { "__schame": { "types" : [ { "name": "Query"},  { "name": "Person" }, ... ] } } }
+* __type { kind name description fields interfaces possibleTypes enumValues inputFields ofType } - returns information about type in our Schema
+* Example: { __type(name: "User") { name interfaces { name } } } -> response will be: { "data": { "__type": { "name": "User", "interfaces": [ { "name": "Person" } ] } } } 
+* more examples from the video ~ 1h of the video
 
 #### Articles-React:
 
