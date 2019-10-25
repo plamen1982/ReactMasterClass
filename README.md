@@ -745,22 +745,22 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 
 #### Articles-React:
 
-* [https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga](testing-react-hook-state-changes-2oga)
-* [https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d](environments-with-create-react-app-7b645312c09d)
+* [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
+* [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
 * [http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/](can-i-dispatch-multiple-actions-from-redux-action-creators/)
-* [https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
-* [https://medium.com/javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1](can-you-console-log-in-jsx)
-* [https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82](internationalizing-a-front-end-application)
-* [https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/](react-hooks-cheat-sheet-unlock-solutions-to-common-problems)
-* [https://overreacted.io/a-complete-guide-to-useeffect/](a-complete-guide-to-useeffect)
-* [https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea](container-vs-presentational-components-in-react)
-* [https://www.robinwieruch.de/react-hooks-fetch-data](react-hooks-fetch-data)
+* [my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
+* [can-you-console-log-in-jsx](https://medium.com/javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1)
+* [internationalizing-a-front-end-application](https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82)
+* [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
+* [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+* [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)
+* [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
 
 #### Other-articles
 
-* [https://afourtech.com/guide-docker-commands-examples/](guide-docker-commands-examples)
-* [https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886](practical-tips-for-cheating-at-design)
-* [https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template](better-commit-messages-with-a-gitmessage-template)
-* [introduction-to-env-variables](an-introduction-to-environment-variables-and-how-to-use-them)
-* [process-env-what-it-is-and-why-when-how-to-use-it-effectively](process-env-what-it-is-and-why-when-how-to-use-it-effectively)
+* [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
+* [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+* [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
+* [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
+* [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
 * []()
