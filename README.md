@@ -37,7 +37,7 @@
 
 
 
-### [Moder react](#modern-react) - [Video](https://youtu.be/b8oV_qaqa4s)
+### [Modern react](#modern-react) - [Video](https://youtu.be/b8oV_qaqa4s)
 * [Why hooks were invented and problems they solved](#why-hooks-were-invented-and-problems-they-solved)
 * [What are hooks](#what-are-hooks)
 * [Build-in Hooks](#build-in-hooks)
@@ -830,7 +830,7 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * What fields/sub-fields can be selected?
 * What is the actual type of a field?(e.g String, Int..)
   
-#### Non-nullable - definition
+#### Non-nullable definition
 * By default, all types in GraphQL are nullable; the null value is a valid response for all of the above types. To declare a type that disallows null, the GraphQL Non‐Null type can be used. This type wraps an underlying type, and this type acts identically to that wrapped type, with the exception that null is not a valid response for the wrapping type. A trailing exclamation mark is used to denote a field that uses a Non‐Null type like this: name: String!.
   
 #### Object types
