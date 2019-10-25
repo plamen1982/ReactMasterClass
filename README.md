@@ -44,7 +44,7 @@
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
 
-### GrqphQL Introduction
+### GrqphQL Introduction [Video](#https://youtu.be/jage1ChvQEk)
 * [graphql-introduction-graphql](#graphql-introduction)
 * [traditional-rest-graphql](#traditional-rest)
 * [resources-in-restgraphql](#resources-in-rest)
