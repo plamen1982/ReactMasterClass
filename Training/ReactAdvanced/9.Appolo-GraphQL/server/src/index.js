@@ -5,9 +5,9 @@ const app = express();
 const schema = gql`
   type Query {
     me: User,
-    user(id: Int!): User
+    user(id: Int!): User,
+    users:[User!]
   }
-
   type User {
     username: String!,
     age: Int!,
@@ -37,7 +37,9 @@ const resolvers = {
     user: (parent, args) => { 
       console.log();
       return users[args.id];
-    }
+    },
+    users: () => {
+      return Object.values(users)}
   }
 };
 
