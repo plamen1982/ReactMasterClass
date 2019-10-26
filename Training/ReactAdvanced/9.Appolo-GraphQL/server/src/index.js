@@ -5,6 +5,7 @@ const app = express();
 const schema = gql`
   type Query {
     me: User,
+    user(id: Int!): User
   }
 
   type User {
@@ -24,9 +25,19 @@ const schema = gql`
     address: String!, 
   }
 `;
+const users = {
+  1: { id: 1, username: 'pax' }, 
+  2: { id: 2, username: 'paxito' }
+}
+
+
 const resolvers = {
   Query: {
-    me: () => ({ username: 'pax', company: { name: 'pax-group' } })
+    me: () => ({ username: 'pax', company: { name: 'pax-group' } }),
+    user: (parent, args) => { 
+      console.log();
+      return users[args.id];
+    }
   }
 };
 
