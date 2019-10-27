@@ -1,5 +1,6 @@
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
+##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
 ### Requirement to be a programmer
 #### Learn to find solutions!!!
 #### Softare development includes everyday searching and learning 

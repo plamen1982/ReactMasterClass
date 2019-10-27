@@ -75,7 +75,7 @@ server.applyMiddleware({ app, path: '/graphql' });
 const httpServer = http.createServer(app);
 server.installSubscriptionHandlers(httpServer);
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 9000;
 httpServer.listen(port, () => {
   /* eslint-disable no-console */
   console.log(`Server listening ${port}${server.graphqlPath}`);

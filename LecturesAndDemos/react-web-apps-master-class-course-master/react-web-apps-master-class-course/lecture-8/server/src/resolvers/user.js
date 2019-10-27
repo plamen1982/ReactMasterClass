@@ -4,6 +4,7 @@ import { find } from 'lodash';
 
 const createToken = (user, secret, expiresIn) => {
   const { id, email, role } = user;
+  debugger;
   return jwt.sign({ id, email, role }, secret, {
     expiresIn,
   });
