@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
+import Profile from '../Profile';
 
-class App extends Component {
-  render() {
-    return <div>Hello World</div>;
-  }
-}
+const App = () => {
+  return <Profile />;
+};
 
 export default App;

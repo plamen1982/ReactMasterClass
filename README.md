@@ -942,4 +942,5 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
 * [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 * [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
+* [github-authorization](https://moonhighway.com/github-authorization)
 * []()
