@@ -1,5 +1,7 @@
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
+##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
+
 # [React articles](#articles-react)
 
 # ReactMasterClass
@@ -8,7 +10,7 @@
 
 ### [React Advanced](#react-advanced) - [Video](https://youtu.be/zlpYShDdY_c)
   * [Component](#component)
-  * [JSX (JavaScriptXML)](#jsx-(javascriptxml))
+  * [JSX JavaScriptXML](#jsx-javascriptxml)
   * [Component Re-render Causes](#component-re-render-causes)
   * [Presentational Components(Dumb, Skinny)](#presentational-components-or-dumb-or-skinny)
   * [Container Components(Smart, Fat)](#container-components-or-smart-or-fat)
@@ -19,6 +21,7 @@
   * [Render Props](#render-props)
   * [Inversion of control](#inversion-of-control)
   * [React Context](#react-context)
+
 ### [Creating React Applications](#creating-a-react-application) - [Video](https://youtu.be/FNM-Dfdzlyw)
 [create-react-app official page](https://create-react-app.dev/docs/getting-started)
   * [Storybook](#storybook)
@@ -31,12 +34,41 @@
 
 
 
-### [Moder react](#modern-react) - [Video](https://youtu.be/b8oV_qaqa4s)
+### [Modern react](#modern-react) - [Video](https://youtu.be/b8oV_qaqa4s)
 * [Why hooks were invented and problems they solved](#why-hooks-were-invented-and-problems-they-solved)
 * [What are hooks](#what-are-hooks)
 * [Build-in Hooks](#build-in-hooks)
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
+
+### GrqphQL Introduction [Video](#https://youtu.be/jage1ChvQEk)
+* [graphql-introduction-graphql](#graphql-introduction)
+* [traditional-rest-graphql](#traditional-rest)
+* [resources-in-restgraphql](#resources-in-rest)
+* [rest-principals](#rest-principals)
+* [what-is-graphql](#what-is-graphql)
+* [graphql-advantages-graphql](#graphql-advantages)
+* [concepts-in-graphql-graphql](#concepts-in)
+* [schema-definition-language-sdl](#schema-definition-language-sdl)
+* [graphql-language-is-basically-about-selecting-fields-on-objects-graphql](#graphql-language-is-basically-about-selecting-fields-on-objects)
+* [type-system](#type-system)
+* [non-nullable-definition](#non-nullable-definition)
+* [object-types](#object-types)
+* [field-arguments](#field-arguments)
+* [query-and-mutation-object-types](#query-and-mutation-object-types)
+* [scalar-types](#scalar-types)
+* [enumeration-types](#enumeration-types)
+* [interfaces](#interfaces)
+* [query-arguments](#query-arguments)
+* [fields-aliases](#fields-aliases)
+* [fragments-similar-to-spread-operator-in-js](#fragments-similar-to-spread-operator-in-js)
+* [variables](#variables)
+* [directives](#directives)
+* [typename-field-it-is-metatype-data](#__typename-field-it-is-metatype-data)
+* [mutations](#mutations)
+* [retrospection-tool-for-extracting-information-about-our-schema](#retrospection-tool-for-extracting-information-about-our-schema)
+
+### Apollo GraphQL
 
 ### Additional topics out of the scope of the course
   * [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
@@ -738,10 +770,149 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 ##### React Profiler 
 * 1h:35min from the video
 * [React Profiler official documentation](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
+
 ###### Introduction
 * Render phase - determines what changes need to be made to e.g. the DOM - is the moment when React decide what kind of changes needs to be applied to the DOM
 * Commit phase - React applies any changes - the moment when React is applied the changes to the DOM
 * Profiler ignores Render phase and working only with the Commit phase
+
+### graphql-introduction
+#### Content
+* Traditional REST
+* What is GraphQL
+* Concepts in GraphQL
+
+#### traditional-rest
+* data is request from the client to the restful back-end through http protocol
+#### resources-in-rest
+* the idea is the everything it our system is called resource and fetch through url(end-point)
+* There is not limit in the format of data that will be returned is can by xml, json ...
+#### rest-principals
+* Uniform interface -we always use the http verbs(GET, POST, PUT, PATCH DELETE)
+* Stateless - each request is self-descriptive
+* Clint-server - client should be separated from the server, so each of them can be developed individually
+* Cashable - caching shall be applied to resources applicably and those resource should be explicitly marked as cashable
+#### what-is-graphql
+* New API standard that enables declarative data fetching
+* Developed internally at Facebook in 2012 and open sourced in 2015
+* Exposes a single endpoint (ass opposed to REST) and responds only with the data requested from the client 
+* Aims to provide more powerful and flexible alternative to REST
+#### graphql-advantages
+* provides declarative data retrieval istead of imperative
+* remove overfetching and underfetching (n+1 problem)
+* improves rapid development
+* we ca get as much data as we want with a single request to the database
+#### Concepts in GraphQl
+* Type Schema Definition Language (SDL)
+* Type system
+* Queries
+* Mutations
+* Client
+* Server
+  
+#### Schema definition language (SDL)
+* GrapthQL has own type system that is used to define the schema of the API
+* The syntax for writing schemas is called SDL
+* Example: -> type Person { name: String! age: Int! posts: [Post!]! } ; type Post { type: String! author: Person! }
+* When we have ! -> is non nullable -> it means that this field is required when we making queries. posts:[Post!]! is List(array) with Post type objects
+  
+#### GraphQL language is basically about selecting fields on objects
+* Example: { person { id name } }
+* The query starts from special "root" object
+* From that object, select the person field
+* For the object returned for the person field, select id and name
+  
+#### Type system 
+* Every GraphQL server defines a schema which describe the set of possible data that can be queried
+* The schema answers the following questions
+* What types can be queried?(e.g Person and Post)
+* What fields/sub-fields can be selected?
+* What is the actual type of a field?(e.g String, Int..)
+  
+#### Non-nullable definition
+* By default, all types in GraphQL are nullable; the null value is a valid response for all of the above types. To declare a type that disallows null, the GraphQL Non‐Null type can be used. This type wraps an underlying type, and this type acts identically to that wrapped type, with the exception that null is not a valid response for the wrapping type. A trailing exclamation mark is used to denote a field that uses a Non‐Null type like this: name: String!.
+  
+#### Object types
+* The basic components fo GraphQL schema are Object types
+* It's just an object with fields
+* Example: type Person { name: String! posts: [Post!]!}
+* Person is GraphQL Object Type
+* String! means that the name filed is of the type string and in non-nullable
+* [Posts!]! means that the posts field is an array of non-nullable Post objects and that the array itself in non-nullable
+
+#### Field arguments 
+* Every field can have aero or more arguments 
+* The arguments can be optionsl and required 
+* Passed by name (unlike function arguments in JS)
+* Example: type Person { name: String! posts(first: Int = 3): [Post!]! }
+
+#### Query and Mutation object types
+* Special object types that act like the entry point of the API
+* Query is mandatory for every schema(this is the root of our entry point and needs to be Query), Mutation is optional
+* Example: query { person { name } } , type Query { person: Person } -> in th
+
+#### Scalar types
+* Scalar types are the leaves of the query(they don't have sub-fields)
+* Int - A signed 32-bit integer
+* Float - A signed double-precision floating-point value
+* String - A UTF-8 character sequence
+* Boolean - true or false
+* ID - unique identifier used for caching
+  
+#### Enumeration types
+* Special kind of scalar restricted to a particular set of values
+* Example: enum PersonTYpe { USER ADMIN } => type Person { type: PersonType }
+
+#### Interfaces
+* Interfaces are abstract types that define set of fields 
+* Example interface Person { id: Int name: String }, type User implements Person { id: Int name: String } posts: [Post!]! }, type Admin implements Person { id: Int name: String adminRoles: [Role!]! } 
+* Example with the Schema above: query { person { id name } ... on User { posts { title } } ... on Admin { adminRoles } }  
+* response will be from the query above: { "data": { "persons" : [ "id": 1, "name": "User", "posts": [{"title": "Some post"}], "id": 2, "name": "Admin", "adminRoles": [{"name": "moderator"} ] } }
+
+#### Query arguments
+* In GraphQL query, every field can get it's own set of arguments 
+* Example: { person(id: 1) { name posts(title: "graphql") { id content } } }
+
+#### Fields aliases
+* It's possible to request the same field mulptiple times in a single query
+* Example: { query { { person(id: 1) { name } person(id: 2) { name } } } }  => It will become { query { { normalUser: person(id: 1) { name } adminUser: person(id: 2) { name } } } }
+
+#### Fragments similar to spread operator in JS
+* very useful in big queries with 200 - 300 fields
+* Allows us to reuse parts of the query
+* Definition of fragments Example: fragment PersonFields on Person { id name }, { query { normalUser: person(id: 1) { ... PersonFields } adminUser: person(id: 2) { ... PersonFields } } }
+
+#### Variables
+* Provides a way to remove the hard-coded query arguments
+* The variables dictionary is passed in the body of the HTTP request
+* Example: { query personWithPosts$id: Int!, $first: int) { person(id: $id) { name posts(first: $first) { title } } } } - and in the GraphiQL in the section of QUERY VARIABLES(DOWN LEFT SECTION) we adding the value of the id like this -> { "id": 1 }, the body of our post request will be { operationName: "personWithPosts", query: "{ person(id: $id) { name posts(first: $first) { title } } }", variable: { id: 1 } }  
+
+#### Directives
+* Used to dynamically change the shape and structure of queries
+* Example: query Person($id: Int, $withPost: Boolean!) { person(id: $id) { name posts @include(if: $withPosts) { name } } }
+* A directive can be attached to any field or fragment inclusion
+* Can affect the execution of the query in any way the server desires
+* The GraphQl Spec includes two directives @include(if: Boolean) - it will include this field if the argument is true and @skip(if: Boolean) - it will skip if the argument is true
+* Server implementations may have some experimental directives
+  
+#### __typename field-it-is-metatype-data
+* return the type of a field
+* It is useful when we need the type field for rendering purposes in the project will need it!
+* In some cases we need to know the return type of a field
+* Include the **__typename** field at any point of the query to get the return type of that field
+* Example: { query { __typename id { { normalUser: person(id: 1) { ... PersonFields } } { __typename id adminUser: person(id: 2) { ... PersonFields } } } } } and the response will be something like:  { "data": { "persons" : [ { "__typename": "User", "id": 1, "name": "User", "posts": [{"title": "Some post"}] }, {"__typename": "Admin", "id": 2, "name": "Admin", "adminRoles": [{"name": "moderator"} ] } } }
+
+#### Mutations
+* By convention Queries only fetch data and don't couse side effects
+* For side effects and data chages use Mutations
+* Example: type PersonInput { name: String age: Int } , mutation CratePerson($input: PersonInput) { createPerson(input: $input) { id name } } - in the curly brackets this is the result returned from the back-end we can start using the same syntax when we writing a query and use the result(id and name) in this query
+
+#### Retrospection - tool for extracting information about our schema
+* __schema { types queryType mutationType subscriptionType directives } - returns all types custom and build-in from our schema
+* Example: { __schema { types { name } } } -> response will be: { "data": { "__schame": { "types" : [ { "name": "Query"},  { "name": "Person" }, ... ] } } }
+* __type { kind name description fields interfaces possibleTypes enumValues inputFields ofType } - returns information about type in our Schema
+* Example: { __type(name: "User") { name interfaces { name } } } -> response will be: { "data": { "__type": { "name": "User", "interfaces": [ { "name": "Person" } ] } } } 
+* more examples from the video ~ 1h of the video
 
 #### Articles-React:
 
@@ -763,6 +934,16 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 * [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+<<<<<<< HEAD
 * [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
 * [intro-to-debugging-reactjs-applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 []()
+=======
+
+* [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
+* [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
+* [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
+* [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
+* [github-authorization](https://moonhighway.com/github-authorization)
+* []()
+>>>>>>> 567c4227ce19e888c4915621eaf3daaad62aac85
