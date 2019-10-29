@@ -41,7 +41,8 @@
 * [Rules for hooks](#rules-for-hooks)
 * [Write you own hook](#write-you-own-hook)
 
-### GrqphQL Introduction [Video](#https://youtu.be/jage1ChvQEk)
+### GrqphQL Introduction [Video](https://youtu.be/jage1ChvQEk)
+* [Official tutorial for graphql](https://www.howtographql.com/)
 * [graphql-introduction-graphql](#graphql-introduction)
 * [traditional-rest-graphql](#traditional-rest)
 * [resources-in-restgraphql](#resources-in-rest)
@@ -934,16 +935,11 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 * [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
-<<<<<<< HEAD
 * [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
 * [intro-to-debugging-reactjs-applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
-[]()
-=======
-
 * [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 * [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
 * [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 * [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
 * [github-authorization](https://moonhighway.com/github-authorization)
 * []()
->>>>>>> 567c4227ce19e888c4915621eaf3daaad62aac85
