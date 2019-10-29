@@ -763,4 +763,4 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 * [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 * [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
-* []()
+* [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
