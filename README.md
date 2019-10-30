@@ -946,4 +946,5 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
 https://12factor.net/
 * [The Twelve Factors principles](https://12factor.net/)
-* []()
+* [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
+[]()
