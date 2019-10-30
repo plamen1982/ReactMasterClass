@@ -944,4 +944,6 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [github-authorization](https://moonhighway.com/github-authorization)
 * [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 * [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
+https://12factor.net/
+* [The Twelve Factors principles](https://12factor.net/)
 * []()
