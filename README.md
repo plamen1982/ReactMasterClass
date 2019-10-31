@@ -49,7 +49,7 @@
 
 ### [Styling in React Video](https://youtu.be/ucYWB_fIDBY)
 
-### [State managment in react - redux](https://youtu.be/Yd7IJ6pKhf4)
+### [State managment in react - redux video](https://youtu.be/Yd7IJ6pKhf4)
 
 ### GrqphQL Introduction [Video](https://youtu.be/jage1ChvQEk)
 
@@ -1112,6 +1112,8 @@
 - [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 - [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
+- [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
+- [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
 
 #### JS must:
 
