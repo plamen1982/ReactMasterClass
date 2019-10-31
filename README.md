@@ -1,3 +1,4 @@
+# [Rules of Thumb. K.I.S.S.](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
 ##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
@@ -947,4 +948,4 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 https://12factor.net/
 * [The Twelve Factors principles](https://12factor.net/)
 * [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
-[]()
+* [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
