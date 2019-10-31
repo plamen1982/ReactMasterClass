@@ -47,6 +47,10 @@
 - [Rules for hooks](#rules-for-hooks)
 - [Write you own hook](#write-you-own-hook)
 
+### [Styling in React Video](https://youtu.be/ucYWB_fIDBY)
+
+### [State managment in react - redux](https://youtu.be/Yd7IJ6pKhf4)
+
 ### GrqphQL Introduction [Video](https://youtu.be/jage1ChvQEk)
 
 - [Official tutorial for graphql](https://www.howtographql.com/)
@@ -76,12 +80,9 @@
 - [mutations](#mutations)
 - [retrospection-tool-for-extracting-information-about-our-schema](#retrospection-tool-for-extracting-information-about-our-schema)
 
-### Apollo GraphQL
+### [Apollo GraphqQl Server and Client video](https://youtu.be/9qthkryYwNU)
 
-### Additional topics out of the scope of the course
-
-- [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
-- [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
+### [Architecture in web applications video](https://youtu.be/KI1I3ZYng8k)
 
 ### React Advanced
 
@@ -1151,6 +1152,7 @@
 ### 1) K.I.S.S. (Keep It Simple, Stupid)
 
 -
+
 - There are many areas where this rule applies in programming. Two very important ones are:
 -
 - a) Subprogram behavior and length: Subprograms should do precisely ONE conceptual task and no more. The length of a subprogram should allow it to be easily visually _ inspected; generally no more that one page in length. Similarly you should generally not mix input/output and algorithmic logic in the same subprogram; it is alway a goal _ to separate I/O from logic.
@@ -1163,6 +1165,7 @@
 ### 2) "Rule of Three" (code duplication)
 
 -
+
 - is a code refactoring rule of thumb to decide when a replicated piece of code should be replaced by a new procedure. It states that you are allowed to copy and paste the _ code once, but that when the same code is replicated three times, it should be extracted into a new procedure. The rule was introduced by Martin Fowler in his text _ "Refactoring" and attributed to Don Roberts.
 -
 - Duplication in programming is almost always in indication of poorly designed code or poor coding habits. Duplication is a bad practice because it makes code harder to _ maintain. When the rule encoded in a replicated piece of code changes, whoever maintains the code will have to change it in all places correctly. This process is _ error-prone and often leads to problems. If the code exists in only one place, then it can be easily changed there. This rule is can even be applied to small number of _ lines of code, or even single lines of code. For example, if you want to call a function, and then call it again when it fails, it's OK to have two call sites; however, if _ you want to try it five times before giving up, there should only be one call site inside a loop rather than 5 independent calls.
@@ -1171,6 +1174,7 @@
 ### 3) Ninety-ninety rule ( failure to anticipate the hard parts)
 
 -
+
 - The ninety-ninety rule is a humorous aphorism that states:
 -
 - "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the \* development time."
@@ -1182,6 +1186,7 @@
 ### 4) Efficiency vs. code clarity (chasing false efficiency)
 
 -
+
 - Never sacrifice clarity for some perceived efficiency. One of the biggest mistakes that new programmers make is tweaking code to remove a couple of textual lines of high _ level code and replace it with a much more complex single line of code. This is commonly called "bit twiddling". Always remember that most compilers optimize code. _ Further, there is a corollary to the 90-90 rule known as the "Pareto Principle":
 -
 - In computer science, the Pareto principle can be applied to resource optimization by observing that 80% of the resources are typically used by 20% of the operations. In _ software engineering, it is often a better approximation that 90% of the execution time of a computer program is spent executing 10% of the code (known as the 90/10 law in _ this context).
@@ -1202,6 +1207,7 @@
 ### 5) Naming of things (subprograms and variables)
 
 -
+
 - In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types and functions \* etc. in source code and documentation. Reasons for using a naming convention (as opposed to allowing programmers to choose any character sequence) include the following:
 -
 - 1. to reduce the effort needed to read and understand source code which supports its maintainability
