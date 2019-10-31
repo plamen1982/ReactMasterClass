@@ -928,6 +928,8 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 * [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)
 * [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
+* [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
+* [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
 
 #### Other-articles
 
@@ -941,7 +943,6 @@ the **value of the location property** is a object like this one => **{ key: 'ac
 * [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 * [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
 * [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
-* [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
 * [github-authorization](https://moonhighway.com/github-authorization)
 * [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 * [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
@@ -949,4 +950,3 @@ https://12factor.net/
 * [The Twelve Factors principles](https://12factor.net/)
 * [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 * [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
-* [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
