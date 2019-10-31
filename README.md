@@ -950,3 +950,63 @@ https://12factor.net/
 * [The Twelve Factors principles](https://12factor.net/)
 * [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 * [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+
+
+# Rules of thumb 
+* Computer Science 1
+* 
+## Important Programming  "Rules  of Thumb"
+* 
+### 1) K.I.S.S. (Keep It Simple, Stupid)
+* 
+* There are many areas where this rule applies in programming.  Two very important ones are:
+* 
+* a)  Subprogram behavior and length:  Subprograms should do precisely ONE conceptual task and no more. The length of a subprogram should allow it to be easily visually * inspected; generally no more that one page in length.  Similarly you should generally not mix input/output and algorithmic logic in the same subprogram; it is alway a goal * to separate I/O from logic.
+* 
+* b)  If a problem is can be decomposed into two or more independently solvable problems, then solve them independently and after you have implemented and tested the * independent solutions, then combine them into the larger result.  This is sometimes known as "Gall's Law":
+* 
+* "A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system * designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system."
+* 
+### 2) "Rule of Three" (code duplication)
+* 
+* is a code refactoring rule of thumb to decide when a replicated piece of code should be replaced by a new procedure. It states that you are allowed to copy and paste the * code once, but that when the same code is replicated three times, it should be extracted into a new procedure. The rule was introduced by Martin Fowler in his text * "Refactoring" and attributed to Don Roberts.
+* 
+* Duplication in programming is almost always in indication of poorly designed code or poor coding habits. Duplication is a bad practice because it makes code harder to * maintain. When the rule encoded in a replicated piece of code changes, whoever maintains the code will have to change it in all places correctly. This process is * error-prone and often leads to problems. If the code exists in only one place, then it can be easily changed there. This rule is can even be applied to small number of * lines of code, or even single lines of code. For example, if you want to call a function, and then call it again when it fails, it's OK to have two call sites; however, if * you want to try it five times before giving up, there should only be one call site inside a loop rather than 5 independent calls.
+* 
+### 3) Ninety-ninety rule ( failure to anticipate the hard parts)
+* 
+* The ninety-ninety rule is a humorous aphorism that states:
+* 
+* "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the * development time."
+* —Tom Cargill, Bell Labs
+* 
+* That the total development time sums to 180% is a wry allusion to the notorious tendency of software development projects to significantly overrun their original schedules. * It expresses both the rough allocation of time to easy and hard portions of a programming project and the cause of the lateness of many projects (that is, failure to * anticipate the hard parts). In other words, it takes both more time and more coding than expected to make a project work.
+* 
+### 4) Efficiency vs. code clarity (chasing false efficiency)
+* 
+* Never sacrifice clarity for some perceived efficiency.  One of the biggest mistakes that new programmers make is tweaking code to remove a couple of textual lines of high * level code and replace it with a much more complex single line of code.  This is commonly called "bit twiddling".  Always remember that most compilers optimize code.  * Further, there is a corollary to the 90-90 rule known as the "Pareto Principle":
+* 
+* In computer science, the Pareto principle can be applied to resource optimization by observing that 80% of the resources are typically used by 20% of the operations. In * software engineering, it is often a better approximation that 90% of the execution time of a computer program is spent executing 10% of the code (known as the 90/10 law in * this context).
+* 
+* Given this knowledge, most "bit twiddling" will have no perceivable impact on the runtime of most programs as most of them will likely be in the 90% of code that has little * impact on the run-time of the program.  The real efficiency gains come from changing the order of complexity of the algorithm, such as changing from O(N^2) to O(NlogN) * complexity.  Keep your code clearly and cleanly written and it will usually be reasonably efficient.  Occasionally, after the program is written and tested, it might prove * to be slower than the problem specification calls for.  On the these few occasions, and only after you have first optimized the complexity of the algorithm, then instrument * or profile the code and find the 10% or less of the code that PROVABLY causes slow runtime and then optimize that small code segment.
+* 
+* Comments on this topic from well respected computer scientists and software engineers:
+* 
+* "More computing sins are committed in the name of efficiency (without necessarily achieving it) than for any other single reason — including blind stupidity." — W.A. Wulf
+* 
+* "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that * critical 3%. A good programmer will not be lulled into complacency by such reasoning, he will be wise to look carefully at the critical code; but only after that code has * been identified" — Donald Knuth
+* 
+* "Bottlenecks occur in surprising places, so don't try to second guess and put in a speed hack until you have proven that's where the bottleneck is." — Rob Pike
+* 
+* "The First Rule of Program Optimization: Don't do it. The Second Rule of Program Optimization (for experts only!): Don't do it yet." — Michael A. Jackson
+* 
+### 5) Naming of things (subprograms and variables)
+* 
+* In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types and functions * etc. in source code and documentation. Reasons for using a naming convention (as opposed to allowing programmers to choose any character sequence) include the following:
+* 
+* 1) to reduce the effort needed to read and understand source code which supports its maintainability
+* 2) to enhance source code appearance (for example, by disallowing overly long names or unclear abbreviations)
+* 
+* There are lots of naming conventions that are strongly argued for or against by various engineers; in reality these are mostly religious arguments.  However, whatever you * do, you should follow some consistent naming style.  There is one thing that is common to most all naming conventions, and that is that the name should be descriptive of * the contents, or a name that is in common programming practice for the language (such as using i, j, k for loop and array indexes). 
+* 
+* Commonly, subprograms should have verb/verb phrase names as a subprogram should specify one specific task (see KISS rule) which should be an activity description. Variables * should have noun or adjective names as variables represent things or attributes of something. When choosing a name, if you have difficulty in coming up with a descriptive * name this is an indication that your code needs further refactoring to improve the clarity of the design and the purpose of subprograms and variables.
