@@ -1,4 +1,4 @@
-# [Rules of Thumb. K.I.S.S.](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+# [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
 ##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
