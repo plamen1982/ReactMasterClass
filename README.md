@@ -949,3 +949,4 @@ https://12factor.net/
 * [The Twelve Factors principles](https://12factor.net/)
 * [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 * [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+* [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
