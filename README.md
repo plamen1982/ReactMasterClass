@@ -1117,6 +1117,7 @@
 - [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
 - [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
 - [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
+- [how-to-mock-specific-module-function-in-jest](https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4)
 #### JS must:
 
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
