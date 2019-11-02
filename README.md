@@ -1115,7 +1115,10 @@
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
 - [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
 - [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
-
+- [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
+- [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
+- [how-to-mock-specific-module-function-in-jest](https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4)
+- [mock-spy-exported-functions-within-a-single-module-in-jest](https://medium.com/@DavideRama/mock-spy-exported-functions-within-a-single-module-in-jest-cdf2b61af642)
 #### JS must:
 
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
