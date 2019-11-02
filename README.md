@@ -1143,7 +1143,7 @@
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
-
+- [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
 # Rules of thumb
 
 - Computer Science 1
