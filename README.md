@@ -5,7 +5,7 @@
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
 
 ##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
-
+##### [GraphQL Playground uder http](http://softuni-swapp-212366186.eu-west-1.elb.amazonaws.com/graphql)
 # [React articles](#articles-react)
 
 # ReactMasterClass
