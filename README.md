@@ -1110,6 +1110,7 @@
 - [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
 - [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
 - [organizing-tests-in-jest](https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850)
+- [how-to-test-a-react-component-that-is-dependent-on-usecontext-hook](https://stackoverflow.com/questions/54691799/how-to-test-a-react-component-that-is-dependent-on-usecontext-hook)
 ##### Hooks
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
