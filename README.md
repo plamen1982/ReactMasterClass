@@ -1109,7 +1109,7 @@
 - [can-you-console-log-in-jsx](https://medium.com/javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1)
 - [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
 - [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
- 
+- [organizing-tests-in-jest](https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850)
 ##### Hooks
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
