@@ -1112,6 +1112,7 @@
 - [organizing-tests-in-jest](https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850)
 - [how-to-test-a-react-component-that-is-dependent-on-usecontext-hook](https://stackoverflow.com/questions/54691799/how-to-test-a-react-component-that-is-dependent-on-usecontext-hook)
 - [testing-react-with-jest-and-enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+- [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
 ##### Hooks
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
@@ -1175,8 +1176,16 @@
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
+<<<<<<< HEAD
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
+=======
+- [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+- [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
+- [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
+- [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
+>>>>>>> 625c1797c901311d49b3289527ab2557a239f2cd
 # Rules of thumb
 
 - Computer Science 1
