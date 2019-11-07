@@ -1110,6 +1110,9 @@
 - [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
 - [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
 - [organizing-tests-in-jest](https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850)
+- [how-to-test-a-react-component-that-is-dependent-on-usecontext-hook](https://stackoverflow.com/questions/54691799/how-to-test-a-react-component-that-is-dependent-on-usecontext-hook)
+- [testing-react-with-jest-and-enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+- [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
 ##### Hooks
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
@@ -1136,7 +1139,7 @@
 #### React Router
 - [react-router-v5-1](https://reacttraining.com/blog/react-router-v5-1/)
 - [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
-- 
+- [Understanding_Using_Links_React_Router](https://www.techiediaries.com/react-router-dom-v4/#Understanding_Using_Links_React_Router_4)
 #### Libraries
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
   
@@ -1173,13 +1176,18 @@
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
+- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
+
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
 - [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
+- [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
 
 
 # Rules of thumb
