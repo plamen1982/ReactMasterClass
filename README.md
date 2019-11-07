@@ -1,11 +1,11 @@
 # [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
+## Every minute you spend in planning saves 10 minutes in execution; this gives you a 1,000 percent Return on Energy!
 ### [Live demo of the project](https://star-wars-react-master-class.netlify.com)
 
 ##### To login into the project add credentials: email: demo@st6.io , password: demo1234
 
 ##### GraphQL Playground uder https -> [star-wars-graphql-playground](https://swapp.st6.io/graphql)
-
+##### [GraphQL Playground uder http](http://softuni-swapp-212366186.eu-west-1.elb.amazonaws.com/graphql)
 # [React articles](#articles-react)
 
 # ReactMasterClass
@@ -1099,46 +1099,77 @@
 - more examples from the video ~ 1h of the video
 
 #### Articles-React:
-
+##### Testing/Debugging
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
-- [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
-- [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
-- [my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
-- [can-you-console-log-in-jsx](https://medium.com/javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1)
-- [internationalizing-a-front-end-application](https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82)
-- [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
-- [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
-- [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)
-- [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
-- [react-graphql-apollo-tutorial](https://www.robinwieruch.de/react-graphql-apollo-tutorial)
-- [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
-- [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
-- [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
-- [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
 - [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
 - [how-to-mock-specific-module-function-in-jest](https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4)
 - [mock-spy-exported-functions-within-a-single-module-in-jest](https://medium.com/@DavideRama/mock-spy-exported-functions-within-a-single-module-in-jest-cdf2b61af642)
+- [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/) 
+- [can-you-console-log-in-jsx](https://medium.com/javascript-in-plain-english/can-you-console-log-in-jsx-732f2ad46fe1)
+- [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
+- [getting-started-react-logging](https://www.scalyr.com/blog/getting-started-react-logging/)
+- [organizing-tests-in-jest](https://medium.com/@JeffLombardJr/organizing-tests-in-jest-17fc431ff850)
+##### Hooks
+- [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
+- [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+- [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
+- [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
+  
+##### Redux
+- [the-only-introduction-to-redux-and-react-redux-youll-ever-need](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
+- [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
+- [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
+
+##### Configurations
+- [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
+
+##### Styling
+- [my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
+- [internationalizing-a-front-end-application](https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82)
+  
+##### Composition
+- [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)****
+- [functional-composition-of-react-components](https://medium.com/@mjewell/functional-composition-of-react-components-527f6930a42)
+- [react-composition-patterns-from-the-ground-up](https://medium.com/@alexkrolick/react-composition-patterns-from-the-ground-up-8401aaad93d7)
+
+#### React Router
+- [react-router-v5-1](https://reacttraining.com/blog/react-router-v5-1/)
+- [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
+- 
+#### Libraries
+- [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
+  
 #### JS must:
 
-- [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [Arrow_functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-
+- [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
+- [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
+- [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+  
 #### Other-articles
 
+##### Configurations
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
-- [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
-- [introduction-of-react-js-debugging](https://blog.cloudboost.io/introduction-of-react-js-debugging-f14a3894afc)
-- [intro-to-debugging-reactjs-applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
-- [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
-- [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 - [github-authorization](https://moonhighway.com/github-authorization)
-- [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+  
+##### Styling
+- [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+
+##### GraphQL and Apollo Client
+- [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
+- [apollo-client-now-with-react-hooks](https://blog.apollographql.com/apollo-client-now-with-react-hooks-676d116eeae2)
+- [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
+- [getting-started-with-react-and-graphql](https://medium.com/codingthesmartway-com-blog/getting-started-with-react-and-graphql-395311c1e8da)
+- [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
+  
+##### Principles in programming
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
@@ -1147,6 +1178,10 @@
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
+- [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
+- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
+
 # Rules of thumb
 
 - Computer Science 1
