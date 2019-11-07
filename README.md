@@ -1186,6 +1186,7 @@
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
 - [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
 - [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
+- [react-children-composition-patterns-with-typescript](https://medium.com/@martin_hotell/react-children-composition-patterns-with-typescript-56dfc8923c64)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
 
