@@ -1164,8 +1164,10 @@
   
 ##### Styling
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
-- [how-to-customize-material-ui-theme-part-1](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
-- [how-to-customize-material-ui-theme-part-2](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
+- [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
+- [how-to-customize-material-ui-theme-part-2-override-global-variables-and-tools](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
+- [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33)
+-[]()
 ##### GraphQL and Apollo Client
 - [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 - [apollo-client-now-with-react-hooks](https://blog.apollographql.com/apollo-client-now-with-react-hooks-676d116eeae2)
