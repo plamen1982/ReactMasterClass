@@ -1164,6 +1164,10 @@
 
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 
+#### Visualization libraries
+
+-[data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660) -[nivo-a-great-alternative-to-d3-in-react](https://medium.com/@samuelsetsoafia/nivo-a-great-alternative-to-d3-in-react-6cb18d907d2)
+
 #### JS must:
 
 - [Arrow_functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
@@ -1188,6 +1192,9 @@
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+- [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
+- [how-to-customize-material-ui-theme-part-2-override-global-variables-and-tools](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
+- [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
 
 ##### GraphQL and Apollo Client
 
@@ -1203,16 +1210,29 @@
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
   <<<<<<< HEAD
+  <<<<<<< HEAD
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
-=======
+# =======
+
+- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
+> > > > > > > d45c73fbbd06e6e6637c1ca4c390181d3683de64
 
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
-  > > > > > > > 625c1797c901311d49b3289527ab2557a239f2cd
+  <<<<<<< HEAD
+  > > > > > > > # 625c1797c901311d49b3289527ab2557a239f2cd
+- [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
+- [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
+- [react-children-composition-patterns-with-typescript](https://medium.com/@martin_hotell/react-children-composition-patterns-with-typescript-56dfc8923c64)
+- [practical-beginners-guide-to-regex-regular-expressions](https://medium.com/front-end-weekly/a-practical-beginners-guide-to-regex-regular-expressions-2faccbda117d)
+- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
+> > > > > > > d45c73fbbd06e6e6637c1ca4c390181d3683de64
 
 # Rules of thumb
 
