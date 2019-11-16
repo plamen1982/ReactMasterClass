@@ -1110,7 +1110,9 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+- [jest doc](https://jestjs.io/docs/en/expect)
 
+- [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 - [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
@@ -1209,30 +1211,17 @@
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
-  <<<<<<< HEAD
-  <<<<<<< HEAD
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
-# =======
-
-- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
-> > > > > > > d45c73fbbd06e6e6637c1ca4c390181d3683de64
-
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
-  <<<<<<< HEAD
-  > > > > > > > # 625c1797c901311d49b3289527ab2557a239f2cd
 - [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
 - [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
 - [react-children-composition-patterns-with-typescript](https://medium.com/@martin_hotell/react-children-composition-patterns-with-typescript-56dfc8923c64)
 - [practical-beginners-guide-to-regex-regular-expressions](https://medium.com/front-end-weekly/a-practical-beginners-guide-to-regex-regular-expressions-2faccbda117d)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
-> > > > > > > d45c73fbbd06e6e6637c1ca4c390181d3683de64
 
 # Rules of thumb
 
