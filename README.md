@@ -369,7 +369,7 @@
 - Reserved Environment Variables (e.g. PORT)
 - Custom Environment Variables
 - Used for custom purposes (e.g. setting the backend server url)
-- Must be **prefixed with REACT_APP*** (e.g. REACT_APP_BE_URL)
+- Must be **prefixed with REACT_APP\*** (e.g. REACT_APP_BE_URL)
 
 #### Progressive Web App
 
@@ -527,15 +527,17 @@
 - check more complex example with meme-generator: **1h:18min**
 
 #### Testing React Components
+
 ##### Conclusions 1
+
 - test are documentation for your app, you can see all expected behavior of your functions, components and etc.
 - when new joiner come to your code even if he messed up something the test will not passed
 - motivates you to write high quality code with focus in you mind of separation of concerns
-- keep you code tight, and easy to maintain  
+- keep you code tight, and easy to maintain
 - when you change code not the behavior of the functions/components the test should passed
-  
+
 ##### Conclusions 2
-  
+
 - Capture Regressions
 - Ensure Proper Visual Content
 - Validate UX
@@ -545,7 +547,6 @@
 ## [Content](#content)
 
 #### Jest [Jest official site](https://jestjs.io/)- 1h:35min
-
 
 - **Jest is a delightful JavaScript Testing Framework with a focus on simplicity.**
 - Fast and Safe
@@ -1119,9 +1120,14 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
 - [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
+- [how-to-add-custom-message-to-jest-expect](https://stackoverflow.com/questions/45348083/how-to-add-custom-message-to-jest-expect)
+
+##### Get know with testing:
+
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 - [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
