@@ -369,7 +369,7 @@
 - Reserved Environment Variables (e.g. PORT)
 - Custom Environment Variables
 - Used for custom purposes (e.g. setting the backend server url)
-- Must be **prefixed with REACT*APP*** (e.g. REACT_APP_BE_URL)
+- Must be **prefixed with REACT_APP*** (e.g. REACT_APP_BE_URL)
 
 #### Progressive Web App
 
@@ -527,7 +527,15 @@
 - check more complex example with meme-generator: **1h:18min**
 
 #### Testing React Components
-
+##### Conclusions 1
+- test are documentation for your app, you can see all expected behavior of your functions, components and etc.
+- when new joiner come to your code even if he messed up something the test will not passed
+- motivates you to write high quality code with focus in you mind of separation of concerns
+- keep you code tight, and easy to maintain  
+- when you change code not the behavior of the functions/components the test should passed
+  
+##### Conclusions 2
+  
 - Capture Regressions
 - Ensure Proper Visual Content
 - Validate UX
@@ -537,6 +545,7 @@
 ## [Content](#content)
 
 #### Jest [Jest official site](https://jestjs.io/)- 1h:35min
+
 
 - **Jest is a delightful JavaScript Testing Framework with a focus on simplicity.**
 - Fast and Safe
