@@ -1110,8 +1110,8 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+- [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
-
 - [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
