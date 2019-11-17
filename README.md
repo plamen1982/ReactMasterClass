@@ -1164,7 +1164,7 @@
 - [my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
 - [internationalizing-a-front-end-application](https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82)
 - [color-psychology-psychologica-effects-of-colors](http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.XccplDMzayx)
-
+- [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
