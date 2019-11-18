@@ -1149,6 +1149,7 @@
 - [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
 - [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
 - [react-usecontext-hook](https://www.robinwieruch.de/react-usecontext-hook)
+- [redux-vs-usereducer](https://www.robinwieruch.de/redux-vs-usereducer)
 
 ##### Redux
 
