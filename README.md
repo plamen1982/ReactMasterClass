@@ -1210,6 +1210,8 @@
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 - [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
 - [the-most-powerful-tool-to-boost-your-coding-productivity](https://www.freecodecamp.org/news/the-most-powerful-tool-to-boost-your-coding-productivity-2dc80e0eff00/)
+- [snippet generator](https://snippet-generator.app/)
+  
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
