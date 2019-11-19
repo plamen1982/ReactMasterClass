@@ -1143,7 +1143,7 @@
 - [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
 
 ##### Hooks
-
+-[hooks API](https://reactjs.org/docs/hooks-reference.html)
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 - [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
