@@ -1120,13 +1120,14 @@
 #### Articles-React:
 
 ##### Testing/Debugging
-
+- [react-dev-tools-debug-like-a-ninja](https://medium.com/the-thinkmill/react-dev-tools-debug-like-a-ninja-c3a5d09895c6)
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
 - [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
 - [how-to-add-custom-message-to-jest-expect](https://stackoverflow.com/questions/45348083/how-to-add-custom-message-to-jest-expect)
 
 ##### Get know with testing:
+
 - [writing-snapshot-tests-for-react-components-with-jest](https://scotch.io/tutorials/writing-snapshot-tests-for-react-components-with-jest)
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
@@ -1141,9 +1142,10 @@
 - [how-to-test-a-react-component-that-is-dependent-on-usecontext-hook](https://stackoverflow.com/questions/54691799/how-to-test-a-react-component-that-is-dependent-on-usecontext-hook)
 - [testing-react-with-jest-and-enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 - [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
+- [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 
 ##### Hooks
-
+- [hooks API](https://reactjs.org/docs/hooks-reference.html)
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 - [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
@@ -1160,12 +1162,16 @@
 ##### Configurations
 
 - [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
+- [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
+- [how-to-setup-react-parcel-boilerplate-project](https://marsbased.com/blog/2018/09/11/how-to-setup-react-parcel-boilerplate-project/)
+- [npm-install official doc](https://docs.npmjs.com/cli/install)
 
 ##### Styling
 
 - [my-journey-to-make-styling-with-material-ui-right-6a44f7c68113](https://codeburst.io/my-journey-to-make-styling-with-material-ui-right-6a44f7c68113)
 - [internationalizing-a-front-end-application](https://medium.com/rd-shipit/internationalizing-a-front-end-application-88f1baae3d82)
 - [color-psychology-psychologica-effects-of-colors](http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.XccplDMzayx)
+- [adding-fonts-to-create-react-app](http://skyentific.me/adding-fonts-to-create-react-app/)
 - [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
   
 ##### Composition
@@ -1180,13 +1186,14 @@
 - [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
 - [Understanding_Using_Links_React_Router](https://www.techiediaries.com/react-router-dom-v4/#Understanding_Using_Links_React_Router_4)
 
-#### Libraries
+#### Libraries for React
 
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 
-#### Visualization libraries
+#### Visualization libraries charts
 
--[data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660) -[nivo-a-great-alternative-to-d3-in-react](https://medium.com/@samuelsetsoafia/nivo-a-great-alternative-to-d3-in-react-6cb18d907d2)
+- [data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660) 
+- [nivo-a-great-alternative-to-d3-in-react](https://medium.com/@samuelsetsoafia/nivo-a-great-alternative-to-d3-in-react-6cb18d907d2)
 
 #### JS must:
 
@@ -1196,20 +1203,24 @@
 - [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
-#### Other-articles
+### Other-articles
 
 ##### Configurations
 
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 - [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
-- [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+<<<<<<< HEAD
 - [github-authorization](https://moonhighway.com/github-authorization)
+=======
+- [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
+>>>>>>> b238f2819c8824f042f857065e1f09d2b9d57854
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
-
+- [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
+- [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
@@ -1231,16 +1242,40 @@
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-- [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
 - [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
-- [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
 - [react-children-composition-patterns-with-typescript](https://medium.com/@martin_hotell/react-children-composition-patterns-with-typescript-56dfc8923c64)
 - [practical-beginners-guide-to-regex-regular-expressions](https://medium.com/front-end-weekly/a-practical-beginners-guide-to-regex-regular-expressions-2faccbda117d)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
+
+##### OpenLayers and related
+
+- [KML format](https://developers.google.com/kml/documentation/)
+- [GeoJson format](https://geojson.org/)
+- [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
+- [Open Layers](https://openlayers.org/)
+- [cesiumjs](https://cesium.com/cesiumjs/)
+- [ArcGIS REST API](https://developers.arcgis.com/documentation/core-concepts/rest-api/)
+
+##### CDN
+
+- [Cloudflare vs Akamai](https://www.slant.co/versus/1558/8521/~cloudflare_vs_akamai)
+
+##### git
+
+- [managing-packages-with-github-packages](https://help.github.com/en/github/managing-packages-with-github-packages/about-github-packages#supported-clients-and-formats)
+- [Git-Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+- [what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags](https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags)
+- [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
+- [gitignore standart patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+- [github-authorization](https://moonhighway.com/github-authorization)
+
+##### Deployment
+
+- [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 
 # Rules of thumb
 
