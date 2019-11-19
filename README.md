@@ -1163,6 +1163,8 @@
 
 - [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
+- [how-to-setup-react-parcel-boilerplate-project](https://marsbased.com/blog/2018/09/11/how-to-setup-react-parcel-boilerplate-project/)
+- [npm-install official doc](https://docs.npmjs.com/cli/install)
 
 ##### Styling
 
@@ -1212,7 +1214,7 @@
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
-
+- [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
@@ -1250,6 +1252,7 @@
 - [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
 - [Open Layers](https://openlayers.org/)
 - [cesiumjs](https://cesium.com/cesiumjs/)
+- [ArcGIS REST API](https://developers.arcgis.com/documentation/core-concepts/rest-api/)
 
 ##### CDN
 
@@ -1264,6 +1267,9 @@
 - [gitignore standart patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 - [github-authorization](https://moonhighway.com/github-authorization)
 
+##### Deployment
+
+- [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 
 # Rules of thumb
 
