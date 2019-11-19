@@ -1246,7 +1246,8 @@
 - [practical-beginners-guide-to-regex-regular-expressions](https://medium.com/front-end-weekly/a-practical-beginners-guide-to-regex-regular-expressions-2faccbda117d)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
-
+##### OpenLayers 
+- [KML format](https://developers.google.com/kml/documentation/)
 # Rules of thumb
 
 - Computer Science 1
