@@ -369,7 +369,7 @@
 - Reserved Environment Variables (e.g. PORT)
 - Custom Environment Variables
 - Used for custom purposes (e.g. setting the backend server url)
-- Must be **prefixed with REACT*APP*** (e.g. REACT_APP_BE_URL)
+- Must be **prefixed with REACT_APP\*** (e.g. REACT_APP_BE_URL)
 
 #### Progressive Web App
 
@@ -527,6 +527,16 @@
 - check more complex example with meme-generator: **1h:18min**
 
 #### Testing React Components
+
+##### Conclusions 1
+
+- test are documentation for your app, you can see all expected behavior of your functions, components and etc.
+- when new joiner come to your code even if he messed up something the test will not passed
+- motivates you to write high quality code with focus in you mind of separation of concerns
+- keep you code tight, and easy to maintain
+- when you change code not the behavior of the functions/components the test should passed
+
+##### Conclusions 2
 
 - Capture Regressions
 - Ensure Proper Visual Content
@@ -1111,6 +1121,13 @@
 
 ##### Testing/Debugging
 
+- [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
+- [jest doc](https://jestjs.io/docs/en/expect)
+- [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
+- [how-to-add-custom-message-to-jest-expect](https://stackoverflow.com/questions/45348083/how-to-add-custom-message-to-jest-expect)
+
+##### Get know with testing:
+- [writing-snapshot-tests-for-react-components-with-jest](https://scotch.io/tutorials/writing-snapshot-tests-for-react-components-with-jest)
 - [testing-react-hook-state-changes-2oga](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga)
 - [understanding-jest-mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 - [testing-react-jest-enzyme-sinon](https://www.leighhalliday.com/testing-react-jest-enzyme-sinon)
@@ -1131,6 +1148,8 @@
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
 - [react-hooks-fetch-data](https://www.robinwieruch.de/react-hooks-fetch-data)
 - [How to use Redux with React Hooks](https://itnext.io/how-to-use-redux-with-react-hooks-5422a7ceae6e)
+- [react-usecontext-hook](https://www.robinwieruch.de/react-usecontext-hook)
+- [redux-vs-usereducer](https://www.robinwieruch.de/redux-vs-usereducer)
 
 ##### Redux
 
@@ -1150,6 +1169,8 @@
 - [color-psychology-psychologica-effects-of-colors](http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.XccplDMzayx)
 - [adding-fonts-to-create-react-app](http://skyentific.me/adding-fonts-to-create-react-app/)
 
+- [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
+  
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
@@ -1165,6 +1186,10 @@
 #### Libraries
 
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
+
+#### Visualization libraries
+
+-[data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660) -[nivo-a-great-alternative-to-d3-in-react](https://medium.com/@samuelsetsoafia/nivo-a-great-alternative-to-d3-in-react-6cb18d907d2)
 
 #### JS must:
 
@@ -1186,14 +1211,14 @@
 - [github-authorization](https://moonhighway.com/github-authorization)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
-
+- [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
 - [how-to-customize-material-ui-theme-part-2-override-global-variables-and-tools](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
-- [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33)
--[]()
+- [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
+
 ##### GraphQL and Apollo Client
 
 - [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
@@ -1207,32 +1232,18 @@
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
-<<<<<<< HEAD
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
-=======
-  <<<<<<< HEAD
-- [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
-
-=======
->>>>>>> 2b901efc120803cdf046067e2cd704a40a6243cb
-
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [documenting-react-components-with-storybook](https://medium.com/@emmawedekind/documenting-react-components-with-storybook-6c83abe7cb29)
-<<<<<<< HEAD
 - [understanding-react-default-props](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)
 - [JSON-vs-GeoJSON](https://github.com/earthcubeprojects-chords/chords/wiki/JSON-vs-GeoJSON)
 - [react-children-composition-patterns-with-typescript](https://medium.com/@martin_hotell/react-children-composition-patterns-with-typescript-56dfc8923c64)
 - [practical-beginners-guide-to-regex-regular-expressions](https://medium.com/front-end-weekly/a-practical-beginners-guide-to-regex-regular-expressions-2faccbda117d)
 - [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
-
-=======
-  > > > > > > > 625c1797c901311d49b3289527ab2557a239f2cd
->>>>>>> 2b901efc120803cdf046067e2cd704a40a6243cb
 
 # Rules of thumb
 
