@@ -1249,6 +1249,8 @@
 ##### OpenLayers 
 - [KML format](https://developers.google.com/kml/documentation/)
 - [GeoJson format](https://geojson.org/)
+- [Open Layers](https://openlayers.org/)
+- [cesiumjs](https://cesium.com/cesiumjs/)
 # Rules of thumb
 
 - Computer Science 1
