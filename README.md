@@ -1248,6 +1248,7 @@
 
 ##### OpenLayers 
 - [KML format](https://developers.google.com/kml/documentation/)
+- [GeoJson format](https://geojson.org/)
 # Rules of thumb
 
 - Computer Science 1
