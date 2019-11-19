@@ -1120,7 +1120,7 @@
 #### Articles-React:
 
 ##### Testing/Debugging
-
+- [react-dev-tools-debug-like-a-ninja](https://medium.com/the-thinkmill/react-dev-tools-debug-like-a-ninja-c3a5d09895c6)
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
 - [shollow wrapper enzyme](https://airbnb.io/enzyme/docs/api/ShallowWrapper/find.html)
