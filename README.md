@@ -1209,6 +1209,7 @@
 
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 - [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
+- [the-most-powerful-tool-to-boost-your-coding-productivity](https://www.freecodecamp.org/news/the-most-powerful-tool-to-boost-your-coding-productivity-2dc80e0eff00/)
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
@@ -1218,6 +1219,7 @@
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 - [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
+  
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
