@@ -1251,6 +1251,9 @@
 - [GeoJson format](https://geojson.org/)
 - [Open Layers](https://openlayers.org/)
 - [cesiumjs](https://cesium.com/cesiumjs/)
+
+##### CDN
+- [Cloudflare vs Akamai](https://www.slant.co/versus/1558/8521/~cloudflare_vs_akamai)
 # Rules of thumb
 
 - Computer Science 1
