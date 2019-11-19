@@ -1209,7 +1209,6 @@
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
-- [github-authorization](https://moonhighway.com/github-authorization)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
@@ -1263,6 +1262,7 @@
 - [what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags](https://stackoverflow.com/questions/35979642/what-is-git-tag-how-to-create-tags-how-to-checkout-git-remote-tags)
 - [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 - [gitignore standart patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+- [github-authorization](https://moonhighway.com/github-authorization)
 
 
 # Rules of thumb
