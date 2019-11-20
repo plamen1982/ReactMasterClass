@@ -1203,6 +1203,7 @@
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [deprecating-the-switch-statement-for-object-literals](https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals)
 
 ### Other-articles
 
@@ -1222,13 +1223,10 @@
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 - [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
-<<<<<<< HEAD
 - [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
-=======
   
->>>>>>> 3b9c183ba7ee91619aa2360b8a1558e548dd3e77
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
