@@ -401,6 +401,7 @@
 - echo [desired version] >> .nvmrc
 - call "nvm use" - where the file is located folder
 - [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
 #### Opinionated Formatter
 
@@ -1215,6 +1216,9 @@
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 - [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
+- [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
@@ -1231,7 +1235,7 @@
 - [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
 
 ##### Principles in programming
-
+- [Cyclomatic_complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
