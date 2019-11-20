@@ -1208,17 +1208,27 @@
 
 ##### Configurations
 
+- [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
+- [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
+- [the-most-powerful-tool-to-boost-your-coding-productivity](https://www.freecodecamp.org/news/the-most-powerful-tool-to-boost-your-coding-productivity-2dc80e0eff00/)
+- [snippet generator](https://snippet-generator.app/)
+  
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+- [github-authorization](https://moonhighway.com/github-authorization)
 - [best-visual-studio-code-extensions-for-programmers](https://www.ubuntupit.com/best-visual-studio-code-extensions-for-programmers/)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 - [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
+<<<<<<< HEAD
 - [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
+=======
+  
+>>>>>>> 3b9c183ba7ee91619aa2360b8a1558e548dd3e77
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
