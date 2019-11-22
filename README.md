@@ -1245,6 +1245,8 @@
 - [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
 
 ##### Principles in programming
+
+- [good-code-vs-bad-code](https://medium.com/better-programming/good-code-vs-bad-code-35624b4e91bc)
 - [Cyclomatic_complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
