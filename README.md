@@ -11,7 +11,7 @@
 ##### [GraphQL Playground uder http](http://softuni-swapp-212366186.eu-west-1.elb.amazonaws.com/graphql)
 
 # [React articles](#articles-react)
-
+# [Video Tutorials](#video-tutorials)
 # ReactMasterClass
 
 ## Content
@@ -1121,6 +1121,7 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+- [react-reselect-and-redux](https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c)
 - [react-dev-tools-debug-like-a-ninja](https://medium.com/the-thinkmill/react-dev-tools-debug-like-a-ninja-c3a5d09895c6)
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
@@ -1159,7 +1160,8 @@
 - [the-only-introduction-to-redux-and-react-redux-youll-ever-need](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
 - [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
-
+- [should-i-store-function-references-in-redux-store](https://stackoverflow.com/questions/35325195/should-i-store-function-references-in-redux-store)
+- []()
 ##### Configurations
 
 - [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
@@ -1282,6 +1284,10 @@
 ##### Deployment
 
 - [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
+
+# Video Tutorials
+## React
+- [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
 
 # Rules of thumb
 
