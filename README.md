@@ -1278,6 +1278,11 @@
 
 - [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 
+##### Mocking data
+
+- [How-to-do-CRUD-Operation-using-Json-Server](https://www.oodlestechnologies.com/blogs/How-to-do-CRUD-Operation-using-Json-Server/)
+- [json-server-auth](https://www.npmjs.com/package/json-server-auth)
+  
 # Rules of thumb
 
 - Computer Science 1
