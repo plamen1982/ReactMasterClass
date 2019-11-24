@@ -1285,6 +1285,7 @@
 - [github-authorization](https://moonhighway.com/github-authorization)
 
 ##### Deployment
+- [automating-your-workflow-with-github-actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow)
 - [host-webapps-free](https://blog.patricktriest.com/host-webapps-free/)
 - [Digital Ocean](https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_G_Search_B_Generic_Alpha&_adgroup=digital_ocean&_keyword=digital%20ocean&_device=c&_copytype=&_adposition=1t1&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=EAIaIQobChMI8vHE966C5gIVCbLtCh2whgCTEAAYASAAEgIJkfD_BwE&fbclid=IwAR3qLenlp5jCBxO_1jh4DZX_aZfmzd1IarEUX5Mi5KYuMAcLXLVkw0XfTvs)
 - [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
