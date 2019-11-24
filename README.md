@@ -11,7 +11,7 @@
 ##### [GraphQL Playground uder http](http://softuni-swapp-212366186.eu-west-1.elb.amazonaws.com/graphql)
 
 # [React articles](#articles-react)
-
+# [Video Tutorials](#video-tutorials)
 # ReactMasterClass
 
 ## Content
@@ -401,6 +401,7 @@
 - echo [desired version] >> .nvmrc
 - call "nvm use" - where the file is located folder
 - [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
 #### Opinionated Formatter
 
@@ -1120,6 +1121,7 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+- [react-reselect-and-redux](https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c)
 - [react-dev-tools-debug-like-a-ninja](https://medium.com/the-thinkmill/react-dev-tools-debug-like-a-ninja-c3a5d09895c6)
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
 - [jest doc](https://jestjs.io/docs/en/expect)
@@ -1145,6 +1147,7 @@
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 
 ##### Hooks
+- [useeffect-vs-uselayouteffect](https://kentcdodds.com/blog/useeffect-vs-uselayouteffect)
 - [hooks API](https://reactjs.org/docs/hooks-reference.html)
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
 - [a-complete-guide-to-useeffect](https://overreacted.io/a-complete-guide-to-useeffect/)
@@ -1158,7 +1161,8 @@
 - [the-only-introduction-to-redux-and-react-redux-youll-ever-need](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
 - [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
-
+- [should-i-store-function-references-in-redux-store](https://stackoverflow.com/questions/35325195/should-i-store-function-references-in-redux-store)
+- []()
 ##### Configurations
 
 - [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
@@ -1202,6 +1206,7 @@
 - [composition-over-inheritance](https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205)
 - [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [deprecating-the-switch-statement-for-object-literals](https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals)
 
 ### Other-articles
 
@@ -1221,6 +1226,9 @@
 - [absolute-imports-with-create-react-app](https://medium.com/@ktruong008/absolute-imports-with-create-react-app-4338fbca7e3d)
 - [comparing-bundlers-webpack-rollup-parcel](https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd)
 - [what-are-rc-files-in-nodejs](https://stackoverflow.com/questions/36212256/what-are-rc-files-in-nodejs)
+- [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
+- [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+
   
 ##### Styling
 
@@ -1230,7 +1238,7 @@
 - [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
 
 ##### GraphQL and Apollo Client
-
+- [GrapghQl Tutorial](https://www.apollographql.com/docs/tutorial/introduction/?fbclid=IwAR0qzdJvztVv_FUc__HiV_yERid7x4JfHgQS45kctARkcrzPxImVyjYUqno)
 - [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 - [apollo-client-now-with-react-hooks](https://blog.apollographql.com/apollo-client-now-with-react-hooks-676d116eeae2)
 - [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
@@ -1239,6 +1247,8 @@
 
 ##### Principles in programming
 
+- [good-code-vs-bad-code](https://medium.com/better-programming/good-code-vs-bad-code-35624b4e91bc)
+- [Cyclomatic_complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
   https://12factor.net/
 - [The Twelve Factors principles](https://12factor.net/)
@@ -1275,7 +1285,8 @@
 - [github-authorization](https://moonhighway.com/github-authorization)
 
 ##### Deployment
-
+- [host-webapps-free](https://blog.patricktriest.com/host-webapps-free/)
+- [Digital Ocean](https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_G_Search_B_Generic_Alpha&_adgroup=digital_ocean&_keyword=digital%20ocean&_device=c&_copytype=&_adposition=1t1&_medium=brand_sem&_source=google&_dkitrig=&_2dkitrig=&gclid=EAIaIQobChMI8vHE966C5gIVCbLtCh2whgCTEAAYASAAEgIJkfD_BwE&fbclid=IwAR3qLenlp5jCBxO_1jh4DZX_aZfmzd1IarEUX5Mi5KYuMAcLXLVkw0XfTvs)
 - [how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes](https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a)
 
 ##### Mocking data
@@ -1283,6 +1294,10 @@
 - [How-to-do-CRUD-Operation-using-Json-Server](https://www.oodlestechnologies.com/blogs/How-to-do-CRUD-Operation-using-Json-Server/)
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
   
+# Video Tutorials
+## React
+- [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
+- [The net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?fbclid=IwAR3VP46kku_HpRfmrDDdrzI1Pr5-cz4JrxticwzoKTQGHUsVFGFbB9hbQE0)
 # Rules of thumb
 
 - Computer Science 1
