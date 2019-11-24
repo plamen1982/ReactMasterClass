@@ -1283,6 +1283,9 @@
 - [better-commit-messages-with-a-gitmessage-template](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template)
 - [gitignore standart patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 - [github-authorization](https://moonhighway.com/github-authorization)
+
+#### npm
+- [npm-err-code-elifecycle](https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle)
 #### YAML
 - [yaml-online-parser](https://yaml-online-parser.appspot.com/)
 - [YAMLSyntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
