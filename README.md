@@ -1300,6 +1300,9 @@
 
 - [How-to-do-CRUD-Operation-using-Json-Server](https://www.oodlestechnologies.com/blogs/How-to-do-CRUD-Operation-using-Json-Server/)
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
+
+#### Documentaion
+- [documenting-javascript-projects](https://medium.com/4thought-studios/documenting-javascript-projects-f72429da2eea)
   
 # Video Tutorials
 ## React
