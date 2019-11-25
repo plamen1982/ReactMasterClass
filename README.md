@@ -1158,7 +1158,7 @@
 - [redux-vs-usereducer](https://www.robinwieruch.de/redux-vs-usereducer)
 
 ##### Redux
-
+- [react-redux-apollo-client-state-management-tutorial](https://www.robinwieruch.de/react-redux-apollo-client-state-management-tutorial)
 - [the-only-introduction-to-redux-and-react-redux-youll-ever-need](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
 - [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
