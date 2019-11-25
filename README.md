@@ -1302,8 +1302,13 @@
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
 
 #### Documentaion
+
 - [documenting-javascript-projects](https://medium.com/4thought-studios/documenting-javascript-projects-f72429da2eea)
-  
+
+#### Conventions
+
+[react-components-naming-convention](https://medium.com/@wittydeveloper/react-components-naming-convention-%EF%B8%8F-b50303551505)
+
 # Video Tutorials
 ## React
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
