@@ -1147,6 +1147,7 @@
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 
 ##### Hooks
+- [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
 - [useeffect-vs-uselayouteffect](https://kentcdodds.com/blog/useeffect-vs-uselayouteffect)
 - [hooks API](https://reactjs.org/docs/hooks-reference.html)
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
