@@ -1300,7 +1300,9 @@
 
 - [How-to-do-CRUD-Operation-using-Json-Server](https://www.oodlestechnologies.com/blogs/How-to-do-CRUD-Operation-using-Json-Server/)
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
-  
+
+##### VS Code
+- [tips-and-tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 # Video Tutorials
 ## React
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
