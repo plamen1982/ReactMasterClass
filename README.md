@@ -11,7 +11,9 @@
 ##### [GraphQL Playground uder http](http://softuni-swapp-212366186.eu-west-1.elb.amazonaws.com/graphql)
 
 # [React articles](#articles-react)
+
 # [Video Tutorials](#video-tutorials)
+
 # ReactMasterClass
 
 ## Content
@@ -1121,6 +1123,7 @@
 #### Articles-React:
 
 ##### Testing/Debugging
+
 - [react-reselect-and-redux](https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c)
 - [react-dev-tools-debug-like-a-ninja](https://medium.com/the-thinkmill/react-dev-tools-debug-like-a-ninja-c3a5d09895c6)
 - [testing-recipes](https://reactjs.org/docs/testing-recipes.html)
@@ -1147,6 +1150,9 @@
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
 
 ##### Hooks
+
+- [building-custom-react-hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
+- [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
 - [useeffect-vs-uselayouteffect](https://kentcdodds.com/blog/useeffect-vs-uselayouteffect)
 - [hooks API](https://reactjs.org/docs/hooks-reference.html)
 - [react-hooks-cheat-sheet-unlock-solutions-to-common-problems](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
@@ -1158,11 +1164,13 @@
 
 ##### Redux
 
+- [react-redux-apollo-client-state-management-tutorial](https://www.robinwieruch.de/react-redux-apollo-client-state-management-tutorial)
 - [the-only-introduction-to-redux-and-react-redux-youll-ever-need](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
 - [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
 - [should-i-store-function-references-in-redux-store](https://stackoverflow.com/questions/35325195/should-i-store-function-references-in-redux-store)
 - []()
+
 ##### Configurations
 
 - [environments-with-create-react-app-7b645312c09d](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
@@ -1177,7 +1185,7 @@
 - [color-psychology-psychologica-effects-of-colors](http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.XccplDMzayx)
 - [adding-fonts-to-create-react-app](http://skyentific.me/adding-fonts-to-create-react-app/)
 - [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
-  
+
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
@@ -1196,7 +1204,7 @@
 
 #### Visualization libraries charts
 
-- [data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660) 
+- [data-visualization-with-react-vis](https://medium.com/dailyjs/data-visualization-with-react-vis-bd2587fe1660)
 - [nivo-a-great-alternative-to-d3-in-react](https://medium.com/@samuelsetsoafia/nivo-a-great-alternative-to-d3-in-react-6cb18d907d2)
 
 #### JS must:
@@ -1216,7 +1224,7 @@
 - [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
 - [the-most-powerful-tool-to-boost-your-coding-productivity](https://www.freecodecamp.org/news/the-most-powerful-tool-to-boost-your-coding-productivity-2dc80e0eff00/)
 - [snippet generator](https://snippet-generator.app/)
-  
+
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
@@ -1229,7 +1237,6 @@
 - [or set up automatic nvm use call](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
-  
 ##### Styling
 
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
@@ -1238,6 +1245,7 @@
 - [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
 
 ##### GraphQL and Apollo Client
+
 - [GrapghQl Tutorial](https://www.apollographql.com/docs/tutorial/introduction/?fbclid=IwAR0qzdJvztVv_FUc__HiV_yERid7x4JfHgQS45kctARkcrzPxImVyjYUqno)
 - [graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
 - [apollo-client-now-with-react-hooks](https://blog.apollographql.com/apollo-client-now-with-react-hooks-676d116eeae2)
@@ -1285,11 +1293,16 @@
 - [github-authorization](https://moonhighway.com/github-authorization)
 
 #### npm
+
 - [npm-err-code-elifecycle](https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle)
+
 #### YAML
+
 - [yaml-online-parser](https://yaml-online-parser.appspot.com/)
 - [YAMLSyntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+
 ##### Deployment
+
 - [managing-a-workflow-run](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/managing-a-workflow-run)
 - [automating-your-workflow-with-github-actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow)
 - [host-webapps-free](https://blog.patricktriest.com/host-webapps-free/)
@@ -1302,11 +1315,28 @@
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
 
 ##### VS Code
+
 - [tips-and-tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+
+#### Documentaion
+
+- [documenting-javascript-projects](https://medium.com/4thought-studios/documenting-javascript-projects-f72429da2eea)
+
+#### Conventions
+
+[react-components-naming-convention](https://medium.com/@wittydeveloper/react-components-naming-convention-%EF%B8%8F-b50303551505)
+
+#### Typescript
+
+[how-to-use-super-keyword-in-typescript](https://www.c-sharpcorner.com/UploadFile/5089e0/how-to-use-super-keyword-in-typescript/)
+
 # Video Tutorials
+
 ## React
+
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
 - [The net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?fbclid=IwAR3VP46kku_HpRfmrDDdrzI1Pr5-cz4JrxticwzoKTQGHUsVFGFbB9hbQE0)
+
 # Rules of thumb
 
 - Computer Science 1
