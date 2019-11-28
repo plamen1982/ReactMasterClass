@@ -1243,7 +1243,7 @@
 - [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
 - [how-to-customize-material-ui-theme-part-2-override-global-variables-and-tools](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
 - [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
-
+- [min-width-max-width-media-queries](https://medium.com/@banuriwick/min-width-max-width-media-queries-994e2ec5fca3)
 ##### GraphQL and Apollo Client
 
 - [GrapghQl Tutorial](https://www.apollographql.com/docs/tutorial/introduction/?fbclid=IwAR0qzdJvztVv_FUc__HiV_yERid7x4JfHgQS45kctARkcrzPxImVyjYUqno)
