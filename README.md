@@ -1319,10 +1319,11 @@
 - [tips-and-tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - [visual-studio-code-formatting-setup](https://medium.com/@hamxiaoz/visual-studio-code-formatting-setup-9f40a95699ce)
 - [write-cleaner-code-using-prettier-and-eslint-in-vscode](https://medium.com/@pgivens/write-cleaner-code-using-prettier-and-eslint-in-vscode-d04f63805dcd)
-#### Documentaion
+
+#### Documentaion JSDocs
 
 - [documenting-javascript-projects](https://medium.com/4thought-studios/documenting-javascript-projects-f72429da2eea)
-
+- [type-safe-javascript-with-jsdoc](https://medium.com/@trukrs/type-safe-javascript-with-jsdoc-7a2a63209b76)
 #### Conventions
 
 [react-components-naming-convention](https://medium.com/@wittydeveloper/react-components-naming-convention-%EF%B8%8F-b50303551505)
