@@ -1317,7 +1317,7 @@
 ##### VS Code
 
 - [tips-and-tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-
+- [visual-studio-code-formatting-setup](https://medium.com/@hamxiaoz/visual-studio-code-formatting-setup-9f40a95699ce)
 #### Documentaion
 
 - [documenting-javascript-projects](https://medium.com/4thought-studios/documenting-javascript-projects-f72429da2eea)
