@@ -1253,6 +1253,7 @@
 - [testing-apollos-query-component](https://blog.apollographql.com/testing-apollos-query-component-d575dc642e04)
 - [getting-started-with-react-and-graphql](https://medium.com/codingthesmartway-com-blog/getting-started-with-react-and-graphql-395311c1e8da)
 - [easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6](https://medium.com/@choudlet/easy-configuration-graphql-server-with-apollo-server-2-and-firebase-cloud-functions-google-cloud-4c1b46dd98f6)
+- [build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs](https://dev.to/jgilbertcastro/build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs-3923)
 
 ##### Principles in programming
 
