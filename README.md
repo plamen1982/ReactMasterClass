@@ -1337,15 +1337,20 @@
 
 ##### React Navie
 
-[build-a-react-native-app-with-react-hooks](https://medium.com/crowdbotics/build-a-react-native-app-with-react-hooks-5498e1d5fdf6)
-[react-native-tips-setting-up-your-development-environment-for-windows](https://medium.com/@leonardobrunolima/react-native-tips-setting-up-your-development-environment-for-windows-d326635604ea)
+- [build-a-react-native-app-with-react-hooks](https://medium.com/crowdbotics/build-a-react-native-app-with-react-hooks-5498e1d5fdf6)
+- [react-native-tips-setting-up-your-development-environment-for-windows](https://medium.com/@leonardobrunolima/react-native-tips-setting-up-your-development-environment-for-windows-d326635604ea)
 
 # Video Tutorials
 
-## React
+## React Profiler
 
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
 - [The net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?fbclid=IwAR3VP46kku_HpRfmrDDdrzI1Pr5-cz4JrxticwzoKTQGHUsVFGFbB9hbQE0)
+
+##### Full Stack with Node.js and React
+
+- [the-modern-application-stack-part-5-using-reactjs](https://dzone.com/articles/the-modern-application-stack-part-5-using-reactjs)
+- []()
 
 # Rules of thumb
 
