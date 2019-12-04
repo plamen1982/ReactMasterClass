@@ -1185,7 +1185,7 @@
 - [color-psychology-psychologica-effects-of-colors](http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/#.XccplDMzayx)
 - [adding-fonts-to-create-react-app](http://skyentific.me/adding-fonts-to-create-react-app/)
 - [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
-
+- [everything-you-need-to-know-about-loading-animations](https://medium.com/flawless-app-stories/everything-you-need-to-know-about-loading-animations-10db7f9b61e)
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
