@@ -1353,6 +1353,10 @@
 - [the-modern-application-stack-part-5-using-reactjs](https://dzone.com/articles/the-modern-application-stack-part-5-using-reactjs)
 - []()
 
+##### React
+
+-[promise-all](https://medium.com/front-end-weekly/promise-all-2cfd25b2c6e6)
+
 # Rules of thumb
 
 - Computer Science 1
