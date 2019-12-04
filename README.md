@@ -1186,6 +1186,7 @@
 - [adding-fonts-to-create-react-app](http://skyentific.me/adding-fonts-to-create-react-app/)
 - [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
 - [everything-you-need-to-know-about-loading-animations](https://medium.com/flawless-app-stories/everything-you-need-to-know-about-loading-animations-10db7f9b61e)
+- [design-for-the-dark-theme](https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5)
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
@@ -1197,7 +1198,7 @@
 - [react-router-v5-1](https://reacttraining.com/blog/react-router-v5-1/)
 - [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
 - [Understanding_Using_Links_React_Router](https://www.techiediaries.com/react-router-dom-v4/#Understanding_Using_Links_React_Router_4)
-
+- [react-lazy-suspense-and-concorrent-react-breakdown-with-examples](https://medium.com/@rossbulat/react-lazy-suspense-and-concorrent-react-breakdown-with-examples-2758de98cb1c)
 #### Libraries for React
 
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
