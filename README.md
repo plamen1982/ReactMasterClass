@@ -1148,9 +1148,12 @@
 - [testing-react-with-jest-and-enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 - [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
-
-##### Hooks
+##### Daishi Kato - React Advanced
+- [Daishi Kato blog](https://blog.axlight.com/page/2/)
 - [how-to-create-react-custom-hooks-for-data-fetching-with-useeffect](https://itnext.io/how-to-create-react-custom-hooks-for-data-fetching-with-useeffect-74c5dc47000a)
+- [react-tracked-documentation-website-with-docusaurus-v2](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
+- [react-tracked-documentation-website-with-docusaurus](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
+##### Hooks
 - [setting-state-of-nested-array-with-react-hooks](https://stackoverflow.com/questions/55225764/setting-state-of-nested-array-with-react-hooks)
 - [building-custom-react-hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 - [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
