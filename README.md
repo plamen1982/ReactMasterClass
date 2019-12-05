@@ -1173,7 +1173,7 @@
 - [can-i-dispatch-multiple-actions-from-redux-action-creators/](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
 - [The definitive guide to redux-persist](https://blog.reactnativecoach.com/the-definitive-guide-to-redux-persist-84738167975)
 - [should-i-store-function-references-in-redux-store](https://stackoverflow.com/questions/35325195/should-i-store-function-references-in-redux-store)
-- []()
+- [life-after-redux](https://itnext.io/life-after-redux-21f33b7f189e)
 
 ##### Configurations
 
@@ -1203,6 +1203,11 @@
 - [implementing-private-routes-with-react-router-and-hooks](https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5)
 - [Understanding_Using_Links_React_Router](https://www.techiediaries.com/react-router-dom-v4/#Understanding_Using_Links_React_Router_4)
 - [react-lazy-suspense-and-concorrent-react-breakdown-with-examples](https://medium.com/@rossbulat/react-lazy-suspense-and-concorrent-react-breakdown-with-examples-2758de98cb1c)
+
+#### Optimizations with React
+
+- [optimizing-performance](https://reactjs.org/docs/optimizing-performance.html)
+  
 #### Libraries for React
 
 - [form-validation-with-hook-in](https://medium.com/@bruce1049/form-validation-with-hook-in-3kb-c5414edf7d64)
