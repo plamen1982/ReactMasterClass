@@ -1248,7 +1248,7 @@
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
 ##### Styling
-
+- [progress-bar-with-react-hooks](https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/)
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
 - [how-to-customize-material-ui-theme-part-2-override-global-variables-and-tools](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-2-7e84062b6872)
@@ -1356,8 +1356,9 @@
 
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
 - [The net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?fbclid=IwAR3VP46kku_HpRfmrDDdrzI1Pr5-cz4JrxticwzoKTQGHUsVFGFbB9hbQE0)
+
   
-# cvetana-website - articles for cvetana-website
+# **************************************cvetana-website - articles for cvetana-website****************************************************************
 
 ## Documentation for the project and sources to read/watch from it
 
@@ -1370,11 +1371,11 @@
 ##### Full Stack with Node.js and React
 
 - [the-modern-application-stack-part-5-using-reactjs](https://dzone.com/articles/the-modern-application-stack-part-5-using-reactjs)
-- []()
 
 ##### React
 
 -[promise-all](https://medium.com/front-end-weekly/promise-all-2cfd25b2c6e6)
+
 ##### Node.js 
 
 - [whats-the-difference-between-process-cwd-vs-dirname](https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname)
