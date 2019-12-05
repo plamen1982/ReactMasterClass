@@ -1299,10 +1299,10 @@
 - [gitignore standart patterns](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 - [github-authorization](https://moonhighway.com/github-authorization)
 
-#### npm
+#### npm, npx
 
 - [npm-err-code-elifecycle](https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle)
-
+- [difference-between-npx-and-npm](https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm)
 #### YAML
 
 - [yaml-online-parser](https://yaml-online-parser.appspot.com/)
@@ -1360,6 +1360,9 @@
 ##### React
 
 -[promise-all](https://medium.com/front-end-weekly/promise-all-2cfd25b2c6e6)
+##### Node.js 
+
+- [whats-the-difference-between-process-cwd-vs-dirname](https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname)
 
 # Rules of thumb
 
