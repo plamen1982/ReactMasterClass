@@ -1356,6 +1356,16 @@
 
 - [How to use the React Profiler to find and fix Performance Problems](https://www.youtube.com/watch?v=00RoZflFE34)
 - [The net ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?fbclid=IwAR3VP46kku_HpRfmrDDdrzI1Pr5-cz4JrxticwzoKTQGHUsVFGFbB9hbQE0)
+  
+# cvetana-website - articles for cvetana-website
+
+## Documentation for the project and sources to read/watch from it
+
+### Typescript for React
+
+- [react-typescript-cheatsheet-USED\*](https://github.com/plamen1982/react-typescript-cheatsheet?fbclid=IwAR0iTFbx-vfJMicbjLjv77pDtKNL3muOdZgiGC5wdFsVL7fwDeKDqKlYnFU)
+- [why-typescript-guideline-USED\*](https://basarat.gitbooks.io/typescript/docs/why-typescript.html)
+- [typescript-type-string-undefined-is-not-assignable-to-type-string \*USED](https://stackoverflow.com/questions/54496398/typescript-type-string-undefined-is-not-assignable-to-type-string)
 
 ##### Full Stack with Node.js and React
 
@@ -1368,6 +1378,53 @@
 ##### Node.js 
 
 - [whats-the-difference-between-process-cwd-vs-dirname](https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname)
+
+### Express MongoDB and React
+
+- [Cheatsheet Express MongoDB and React-USED\*](https://github.com/plamen1982/cheatsheets)
+
+### Material ui-tutorial
+
+- [meet-your-material-ui-your-new-favorite-user-interface-library-USED\*](https://www.freecodecamp.org/news/meet-your-material-ui-your-new-favorite-user-interface-library-6349a1c88a8c/)
+
+### VS Code
+
+- [https://scotch.io/tutorials/code-formatting-with-prettier-in-visual-studio-code-USED\*](https://scotch.io/tutorials/code-formatting-with-prettier-in-visual-studio-code)
+
+### Facebook Developers
+
+- [facebook-login-in-react-native-apps](https://medium.com/enappd/facebook-login-in-react-native-apps-6ff5995e1932)
+- [facebook-login-ios-for-react-native-using-facebook-sdk](https://medium.com/@pramithasamarakoon/facebook-login-ios-for-react-native-using-facebook-sdk-1044167433e6)
+- [login-with-facebook-and-google-in-reactjs](https://medium.com/recraftrelic/login-with-facebook-and-google-in-reactjs-990d818d5dab)
+- [enforce-https-facebook-login\*USED](https://developers.facebook.com/blog/post/2018/06/08/enforce-https-facebook-login/)
+
+### GraphQL
+
+[build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs](https://dev.to/jgilbertcastro/build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs-3923)
+[graphql-apollo-server-tutorial](https://www.robinwieruch.de/graphql-apollo-server-tutorial)
+
+### Tools used in the project
+
+- git actions, lerna, husky, eslint, tslint, lint-staged
+
+  - [utilizing-git-hook-by-using-eslint-husky-and-lint-staged-INFO\*](https://medium.com/gits-apps-insight/utilizing-git-hook-by-using-eslint-husky-and-lint-staged-18b6f6f60f1e)
+  - [husky-in-multiple-projects-INFO\*](https://github.com/sudo-suhas/lint-staged-multi-pkg)
+  - [2-minute-revolution-developer-blog/our-full-linting-and-commit-setup-for-typescript-prettier-tslint-lint-staged-husky-USED\*](https://medium.com/2-minute-revolution-developer-blog/our-full-linting-and-commit-setup-for-typescript-prettier-tslint-lint-staged-husky-e442ad3f4be)
+  - [code sharing in big multi repo projects-INFO\*](https://www.youtube.com/watch?v=MflUMIeADZU)
+  - [git and multiple repo-INFO\*](https://www.youtube.com/watch?v=P5r_jONyuHo)
+  - [git actions and lerna-INFO\*](https://johno.com/github-actions-lerna)
+  - [shipping-multipackage-repos-with-github-actions-changesets-and-lerna-USED\*](https://www.christopherbiscardi.com/post/shipping-multipackage-repos-with-github-actions-changesets-and-lerna/)
+
+### Create-React-App
+
+- [create-react-app-how-to-use-https-instead-of-http](https://stackoverflow.com/questions/44574399/create-react-app-how-to-use-https-instead-of-http/53194744)
+
+### Network
+
+- [how-to-fix-your-connection-is-not-private-error-in-google-chrome](https://helpdeskgeek.com/help-desk/how-to-fix-your-connection-is-not-private-error-in-google-chrome/)
+
+### React useReducer and useContext
+- [implementing-redux-style-state-management-with-reacts-usecontext-usereducer-hooks](https://levelup.gitconnected.com/implementing-redux-style-state-management-with-reacts-usecontext-usereducer-hooks-c1c5596d9619)
 
 # Rules of thumb
 
