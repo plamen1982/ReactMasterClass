@@ -1154,6 +1154,7 @@
 - [react-tracked-documentation-website-with-docusaurus-v2](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
 - [react-tracked-documentation-website-with-docusaurus](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
 ##### Hooks
+- [react-hooks-guide](https://www.telerik.com/kendo-react-ui/react-hooks-guide/?fbclid=IwAR0eaks450rinI7dwQ2Jjzys2qpymmqJb83TZVkJ4pQ3zQ5P2ia0gip78oI)
 - [setting-state-of-nested-array-with-react-hooks](https://stackoverflow.com/questions/55225764/setting-state-of-nested-array-with-react-hooks)
 - [building-custom-react-hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 - [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
