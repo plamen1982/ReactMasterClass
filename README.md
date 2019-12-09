@@ -1157,11 +1157,8 @@
 - [react-tracked-documentation-website-with-docusaurus](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
 
 ##### Hooks
-<<<<<<< Updated upstream
+- [writing-your-own-react-hooks-simplified](https://dev.to/namick/writing-your-own-react-hooks-simplified-57li)
 - [react-hooks-guide](https://www.telerik.com/kendo-react-ui/react-hooks-guide/?fbclid=IwAR0eaks450rinI7dwQ2Jjzys2qpymmqJb83TZVkJ4pQ3zQ5P2ia0gip78oI)
-=======
-
->>>>>>> Stashed changes
 - [setting-state-of-nested-array-with-react-hooks](https://stackoverflow.com/questions/55225764/setting-state-of-nested-array-with-react-hooks)
 - [building-custom-react-hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 - [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
@@ -1199,6 +1196,7 @@
 - [stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui](https://itnext.io/stop-using-bootstrap-create-a-practical-css-grid-template-for-your-component-based-ui-da784d974cc7)
 - [everything-you-need-to-know-about-loading-animations](https://medium.com/flawless-app-stories/everything-you-need-to-know-about-loading-animations-10db7f9b61e)
 - [design-for-the-dark-theme](https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5)
+
 ##### Composition
 
 - [container-vs-presentational-components-in-react](https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea)\*\*\*\*
@@ -1236,6 +1234,7 @@
 - [why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools](https://medium.com/@justintulk/why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools-9f5cb86e145a)
 - [why-does-chrome-debugger-think-closed-local-variable-is-undefined](https://stackoverflow.com/questions/28388530/why-does-chrome-debugger-think-closed-local-variable-is-undefined)
 -[javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime](https://medium.com/@pravngaur/javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime-193011c96f97)
+
 ### Other-articles
 
 ##### Configurations
@@ -1244,7 +1243,6 @@
 - [vs-code-extensions-for-complete-ide-experience](https://medium.com/faun/vs-code-extensions-for-complete-ide-experience-bca5bb2f0f90)
 - [the-most-powerful-tool-to-boost-your-coding-productivity](https://www.freecodecamp.org/news/the-most-powerful-tool-to-boost-your-coding-productivity-2dc80e0eff00/)
 - [snippet generator](https://snippet-generator.app/)
-
 - [guide-docker-commands-examples](https://afourtech.com/guide-docker-commands-examples/)
 - [an-introduction-to-environment-variables-and-how-to-use-them](https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa)
 - [process-env-what-it-is-and-why-when-how-to-use-it-effectively](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
@@ -1258,6 +1256,7 @@
 - [locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 
 ##### Styling
+
 - [progress-bar-with-react-hooks](https://www.ilonacodes.com/blog/progress-bar-with-react-hooks/)
 - [practical-tips-for-cheating-at-design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [how-to-customize-material-ui-theme-part-1-understanding-mui-theme-structure-and-how-to-read-doc](https://medium.com/@siriwatknp/how-to-customize-material-ui-theme-v3-2-0-part-1-13e67acc8f80)
@@ -1265,6 +1264,7 @@
 - [how-to-customize-material-ui-theme-part-3-overrode-component-variables](https://blog.bitsrc.io/how-to-customize-material-ui-theme-v3-2-0-part-3-750db6981a33) -[]()
 - [min-width-max-width-media-queries](https://medium.com/@banuriwick/min-width-max-width-media-queries-994e2ec5fca3)
 - [overflowhidden-dots-at-the-end](https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end)
+
 ##### GraphQL and Apollo Client
 
 - [GrapghQl Tutorial](https://www.apollographql.com/docs/tutorial/introduction/?fbclid=IwAR0qzdJvztVv_FUc__HiV_yERid7x4JfHgQS45kctARkcrzPxImVyjYUqno)
