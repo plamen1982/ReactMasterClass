@@ -1148,13 +1148,20 @@
 - [testing-react-with-jest-and-enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 - [test-isolation-with-react](https://kentcdodds.com/blog/test-isolation-with-react)
 - [mocking-the-current-date-in-jest-tests](https://codewithhugo.com/mocking-the-current-date-in-jest-tests/)
+
 ##### Daishi Kato - React Advanced
+
 - [Daishi Kato blog](https://blog.axlight.com/page/2/)
 - [how-to-create-react-custom-hooks-for-data-fetching-with-useeffect](https://itnext.io/how-to-create-react-custom-hooks-for-data-fetching-with-useeffect-74c5dc47000a)
 - [react-tracked-documentation-website-with-docusaurus-v2](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
 - [react-tracked-documentation-website-with-docusaurus](https://itnext.io/react-tracked-documentation-website-with-docusaurus-v2-7d92f9f445bf)
+
 ##### Hooks
+<<<<<<< Updated upstream
 - [react-hooks-guide](https://www.telerik.com/kendo-react-ui/react-hooks-guide/?fbclid=IwAR0eaks450rinI7dwQ2Jjzys2qpymmqJb83TZVkJ4pQ3zQ5P2ia0gip78oI)
+=======
+
+>>>>>>> Stashed changes
 - [setting-state-of-nested-array-with-react-hooks](https://stackoverflow.com/questions/55225764/setting-state-of-nested-array-with-react-hooks)
 - [building-custom-react-hooks](https://medium.com/prototyped/building-custom-react-hooks-f6aad8567825)
 - [management-usecontext-useeffect-usereducer](https://medium.com/@seantheurgel/react-hooks-as-state-management-usecontext-useeffect-usereducer-a75472a862fe)
@@ -1226,7 +1233,7 @@
 - [12-tips-for-writing-clean-and-scalable-javascript](https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/)
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [deprecating-the-switch-statement-for-object-literals](https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals)
-
+- [why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools](https://medium.com/@justintulk/why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools-9f5cb86e145a)
 ### Other-articles
 
 ##### Configurations
