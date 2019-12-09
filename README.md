@@ -1234,6 +1234,8 @@
 - [Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [deprecating-the-switch-statement-for-object-literals](https://ultimatecourses.com/blog/deprecating-the-switch-statement-for-object-literals)
 - [why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools](https://medium.com/@justintulk/why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools-9f5cb86e145a)
+- [why-does-chrome-debugger-think-closed-local-variable-is-undefined](https://stackoverflow.com/questions/28388530/why-does-chrome-debugger-think-closed-local-variable-is-undefined)
+-[javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime](https://medium.com/@pravngaur/javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime-193011c96f97)
 ### Other-articles
 
 ##### Configurations
@@ -1357,6 +1359,9 @@
 
 - [build-a-react-native-app-with-react-hooks](https://medium.com/crowdbotics/build-a-react-native-app-with-react-hooks-5498e1d5fdf6)
 - [react-native-tips-setting-up-your-development-environment-for-windows](https://medium.com/@leonardobrunolima/react-native-tips-setting-up-your-development-environment-for-windows-d326635604ea)
+
+##### DevOps
+- [a-beginners-guide-to-kubernetes](https://medium.com/containermind/a-beginners-guide-to-kubernetes-7e8ca56420b6)
 
 # Video Tutorials
 
