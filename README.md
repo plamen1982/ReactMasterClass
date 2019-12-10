@@ -1211,7 +1211,7 @@
 - [react-lazy-suspense-and-concorrent-react-breakdown-with-examples](https://medium.com/@rossbulat/react-lazy-suspense-and-concorrent-react-breakdown-with-examples-2758de98cb1c)
 
 #### Optimizations with React
-
+- [adventuring-into-react-hooks-performance-practices](https://medium.com/better-programming/adventuring-into-react-hooks-performance-practices-77a23825a946)
 - [optimizing-performance](https://reactjs.org/docs/optimizing-performance.html)
   
 #### Libraries for React
@@ -1444,7 +1444,6 @@
 # Rules of thumb
 
 - Computer Science 1
--
 
 ## Important Programming "Rules of Thumb"
 
