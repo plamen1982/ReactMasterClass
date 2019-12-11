@@ -1,3 +1,4 @@
+# [the-two-pillars-of-javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 # [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
 ## Every minute you spend in planning saves 10 minutes in execution; this gives you a 1,000 percent Return on Energy!
