@@ -1523,3 +1523,4 @@
 ### Linux
 -  [what-is-a-tty-on-linux-and-how-to-use-the-tty-command](https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/)
 - [creating-soft-link-or-symbolic-link](https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/)
+-[complete-guide-to-symbolic-links-symlinks-on-windows-or-linux](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) 
