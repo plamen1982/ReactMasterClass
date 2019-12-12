@@ -1215,6 +1215,7 @@
 - [why-react-suspense-will-be-a-game-changer](https://medium.com/react-in-depth/why-react-suspense-will-be-a-game-changer-37b40fea71ec)
 - [adventuring-into-react-hooks-performance-practices](https://medium.com/better-programming/adventuring-into-react-hooks-performance-practices-77a23825a946)
 - [optimizing-performance](https://reactjs.org/docs/optimizing-performance.html)
+- [react-profiler-in-depth](https://youtu.be/nySib7ipZdk)
   
 #### Libraries for React
 
