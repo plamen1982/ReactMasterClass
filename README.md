@@ -1,3 +1,4 @@
+# [the-two-pillars-of-javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 # [Rules of Thumb. - Computer Science](http://www.wou.edu/las/cs/csclasses/cs161/Lectures/rulesofthumb.html)
 
 ## Every minute you spend in planning saves 10 minutes in execution; this gives you a 1,000 percent Return on Energy!
@@ -1211,7 +1212,7 @@
 - [react-lazy-suspense-and-concorrent-react-breakdown-with-examples](https://medium.com/@rossbulat/react-lazy-suspense-and-concorrent-react-breakdown-with-examples-2758de98cb1c)
 
 #### Optimizations with React
-
+- [adventuring-into-react-hooks-performance-practices](https://medium.com/better-programming/adventuring-into-react-hooks-performance-practices-77a23825a946)
 - [optimizing-performance](https://reactjs.org/docs/optimizing-performance.html)
   
 #### Libraries for React
@@ -1444,7 +1445,6 @@
 # Rules of thumb
 
 - Computer Science 1
--
 
 ## Important Programming "Rules of Thumb"
 
