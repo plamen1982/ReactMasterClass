@@ -1519,3 +1519,6 @@
 - Commonly, subprograms should have verb/verb phrase names as a subprogram should specify one specific task (see KISS rule) which should be an activity description. Variables _ should have noun or adjective names as variables represent things or attributes of something. When choosing a name, if you have difficulty in coming up with a descriptive _ name this is an indication that your code needs further refactoring to improve the clarity of the design and the purpose of subprograms and variables.
 ### Java 
 - [simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1](https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916)
+
+### Linux
+-  [what-is-a-tty-on-linux-and-how-to-use-the-tty-command](https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/)
