@@ -1341,7 +1341,7 @@
 - [json-server-auth](https://www.npmjs.com/package/json-server-auth)
 
 ##### VS Code
-
+- [10-tips-tricks-that-will-make-you-a-better-reactjs-dev-4fhn](https://dev.to/simonholdorf/10-tips-tricks-that-will-make-you-a-better-reactjs-dev-4fhn)
 - [tips-and-tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - [visual-studio-code-formatting-setup](https://medium.com/@hamxiaoz/visual-studio-code-formatting-setup-9f40a95699ce)
 - [write-cleaner-code-using-prettier-and-eslint-in-vscode](https://medium.com/@pgivens/write-cleaner-code-using-prettier-and-eslint-in-vscode-d04f63805dcd)
