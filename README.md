@@ -1279,7 +1279,7 @@
 - [build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs](https://dev.to/jgilbertcastro/build-a-simple-blog-with-graphql-node-js-sqlite-and-vue-angular-or-reactjs-3923)
 
 ##### Principles in programming
-
+- [the-done-is-better-than-perfect-approach-to-programming](https://www.parkersoftware.com/blog/the-done-is-better-than-perfect-approach-to-programming/)
 - [good-code-vs-bad-code](https://medium.com/better-programming/good-code-vs-bad-code-35624b4e91bc)
 - [Cyclomatic_complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 - [wtf-per-minute-actual-measurement-for](http://reviewthecode.blogspot.com/2016/01/wtf-per-minute-actual-measurement-for.html)
