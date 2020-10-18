@@ -835,7 +835,8 @@
 
 - Renders some UI when its path matched the current URL
 - Render methods props - **component**, **render**, **children**
-- in **component** methods props is important not to have callback arrow functions since when this route is rendered every time React will create a new instance of the component that is accepted
+- in **component** methods props is important not to have callback 
+functions since when this route is rendered every time React will create a new instance of the component that is accepted
 - Route props - **match**, **location**, **history**
 - Ex:
 - <Route path="/home" render={() => "div" Home "/div"}>
@@ -1237,6 +1238,7 @@
 - [why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools](https://medium.com/@justintulk/why-are-my-variables-undefined-when-using-debugger-in-chrome-devtools-9f5cb86e145a)
 - [why-does-chrome-debugger-think-closed-local-variable-is-undefined](https://stackoverflow.com/questions/28388530/why-does-chrome-debugger-think-closed-local-variable-is-undefined)
 -[javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime](https://medium.com/@pravngaur/javascript-underpinnings-execution-context-stack-event-loop-task-queue-runtime-193011c96f97)
+- [https://medium.com/javascript-in-plain-english/functional-programming-higher-order-function-hof-aaa46bb444bb](javascript-in-plain-english/functional-programming-higher-order-function-hof-aaa46bb444bb)
 
 ### Other-articles
 
